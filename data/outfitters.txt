@@ -1,0 +1,4 @@
+outfitter "Wherna Basics"
+	"Ruckaos steering"
+	"Ruckaos thruster"
+

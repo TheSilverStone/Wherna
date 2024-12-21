@@ -1,0 +1,27 @@
+outfit "Ruckaos steering"
+	category Engines
+	plural "Ruckaos steering"
+	cost 1500000
+	"mass" 0.5
+	"outfit space" -25
+	"engine capacity" -25
+	"steering" 15
+	"steering energy" 0.7
+	"steering heat" 0.4
+	"steering flare sprite" "effect/atomic flare/huge"
+		"frame rate" 0.1
+		scale 5
+
+outfit "Ruckaos thruster"
+	category Engines
+	plural "Ruckaos thrusters"
+	cost 1500000
+	"mass" 0.5
+	"outfit space" -25
+	"engine capacity" -25
+	"thrust" 15
+	"thrusting energy" 0.7
+	"thrusting heat" 0.4
+	"flare sprite" "effect/atomic flare/huge"
+		"frame rate" 0.1
+		scale 5

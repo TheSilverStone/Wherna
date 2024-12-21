@@ -1,0 +1,11 @@
+government Wherna
+	color 0.143 0.485 0.455
+	"player reputation" 1000
+	"crew attack" 3
+	"crew defense" 1
+	"penalty for"
+		assist -5
+		board 0.5
+		capture 10
+		destroy 20
+
