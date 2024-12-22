@@ -1,3 +1,0 @@
-system kilni
-	pos 494.718 -1127.55
-
