@@ -8,9 +8,8 @@ outfit "Ruckaos steering"
 	"turn" 15
 	"turning energy" 6.6
 	"turning heat" 17.5
-	"steering flare sprite" "effect/atomic flare/huge"
+	"steering flare sprite" "effect/ruckaos/huge"
 		"frame rate" 0.1
-		scale 6.5
 
 outfit "Ruckaos thruster"
 	category Engines
@@ -22,6 +21,6 @@ outfit "Ruckaos thruster"
 	"thrust" 15
 	"thrusting energy" 0.7
 	"thrusting heat" 0.4
-	"flare sprite" "effect/ruckaos"
+	"flare sprite" "effect/ruckaos/huge"
 		"frame rate" 0.1
-		scale 7
+		scale 0.7

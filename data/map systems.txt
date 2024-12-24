@@ -20,11 +20,11 @@ system Wer*antas
 		sprite planet/ocean1-b
 		distance 439
 		period 31.411
-	object
+	object Tsaradian
 		sprite planet/rock12
 		distance 769
 		period 72.824
-	object Tsaradian
+	object
 		sprite planet/gas15
 		distance 1971
 		period 298.822
@@ -47,13 +47,6 @@ system Wer*antas
 
 system Polasdon
 	pos 545.718 -1004.55
-	government Wherna
-	link Alis
-	link Wer*antas
-
-system kilni
-	haze _menu/wherena
-	pos 550 -1010
 	government Wherna
 	link Alis
 	link Wer*antas

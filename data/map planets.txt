@@ -3,5 +3,6 @@ planet Tsaradian
 	description "This planet was considered to be the first planet the Wherna lived on. However, nobody really knows, and as most Wherna live on this planet, it is only considered such because the majority of Wherna here like to prove that their planet is best."
 	description "Mining has improved this planet, as the considerable valuable astroids form precious deposits. Many Wherna are on the steep, dirty stairs down to the station, where a will take them to the city."
 	spaceport "The spaceport is on the top of the highest mountain, rendering it visible from space. This also makes it subject to possible bombing, if an enemy happened along."
+	spaceport "Many captains are landing and taking off, and ocasionly two ships will crash. Many other wherna watch this as they wait for their ships or wait for refueling."
 	outfitter "Wherna Basics"
 
