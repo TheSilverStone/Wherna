@@ -49,6 +49,7 @@ system Polasdon
 	pos 545.718 -1004.55
 	government Wherna
 	link Alis
+	link Hulaina
 	link Wer*antas
 
 system Alis
@@ -56,4 +57,107 @@ system Alis
 	government Wherna
 	link Polasdon
 	link Wer*antas
+
+system Hulaina
+	pos 618.718 -975.55
+	government Uninhabited
+	habitable 5680.009
+	belt 1608 4
+	link Polasdon
+	asteroids "medium rock" 1 2.318
+	asteroids "large rock" 1 2.243
+	asteroids "large metal" 1 2.369
+	object
+		sprite star/k5-old
+		distance 164
+		period 105.011
+	object
+		sprite star/f-giant
+		distance 164
+		period 105.011
+		offset 180
+	object
+		sprite planet/gas13-b
+		distance 930
+		period 150.525
+		object
+			sprite planet/europa-b
+			distance 293
+			period 237.254
+		object
+			sprite planet/dust3
+			distance 448
+			period 358.441
+	object ???
+		sprite planet/wormhole-red
+		distance 1783
+		period 399.588
+	object
+		sprite planet/gas4-b
+		distance 2383
+		period 617.407
+		object
+			sprite planet/oberon
+			distance 247
+			period 239.078
+	object
+		sprite planet/mendez
+		distance 3098
+		period 915.182
+	object
+		sprite planet/gas17-b
+		distance 3591
+		period 1142.112
+		object
+			sprite planet/treser
+			distance 220
+			period nan
+
+system Orilasa
+	pos 477.718 176.45
+	government Uninhabited
+	habitable 7000
+	belt 1528 10
+	asteroids "small rock" 2 1.478
+	asteroids "medium rock" 18 0.986
+	asteroids "large rock" 9 1.619
+	asteroids "small metal" 16 1.654
+	asteroids "medium metal" 61 1.302
+	asteroids "large metal" 3 0.88
+	minables iron 32 1.527
+	object
+		sprite star/b0
+		period 10
+	object
+		sprite planet/ocean1-b
+		distance 503
+		period 53.934
+		object
+			sprite planet/rock0-b
+			distance 180
+			period 91.287
+	object ???
+		sprite planet/wormhole-red
+		distance 1394
+		period 248.831
+	object
+		sprite planet/gas15-b
+		distance 2185
+		period 488.302
+		object
+			sprite planet/lava0-b
+			distance 221
+			period 85.982
+		object
+			sprite planet/rock14
+			distance 348
+			period 169.897
+	object
+		sprite planet/gas1-b
+		distance 4266
+		period 1332.117
+		object
+			sprite planet/rhea
+			distance 468
+			period 314.882
 

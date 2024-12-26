@@ -6,3 +6,10 @@ planet Tsaradian
 	spaceport "Many captains are landing and taking off, and ocasionly two ships will crash. Many other wherna watch this as they wait for their ships or wait for refueling."
 	outfitter "Wherna Basics"
 
+planet ???
+	wormhole oriliasa
+
+wormhole oriliasa
+	link Hulaina Orilasa
+	link Orilasa Hulaina
+	color "wormholes: Ember Waste"
