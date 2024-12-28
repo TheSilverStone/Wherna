@@ -1,4 +1,4 @@
-system Wer*antas
+system Werantas
 	pos 484.718 -984.55
 	government Wherna
 	habitable 13720
@@ -48,15 +48,127 @@ system Wer*antas
 system Polasdon
 	pos 545.718 -1004.55
 	government Wherna
+	habitable 6016.644
+	belt 1625 5
 	link Alis
 	link Hulaina
-	link Wer*antas
+	link Werantas
+	asteroids "small rock" 2 1.602
+	asteroids "medium rock" 7 2.717
+	asteroids "large rock" 35 2.402
+	asteroids "medium metal" 12 1.573
+	asteroids "large metal" 1 1.602
+	minables silicon 8 4.046
+	object
+		sprite star/f3
+		distance 111.104
+		period 55.503
+	object
+		sprite star/b5
+		distance 57.396
+		period 55.503
+		offset 180
+	object Tsadonless
+		sprite planet/forest0
+		distance 363
+		period 35.665
+	object
+		sprite planet/desert1
+		distance 830
+		period 123.31
+	object
+		sprite planet/rock2
+		distance 1183
+		period 209.826
+	object
+		sprite planet/gas7-b
+		distance 1924
+		period 435.202
+		object
+			sprite planet/rock17
+			distance 271
+			period 274.757
+		object
+			sprite planet/io-b
+			distance 395
+			period 296.754
+	object
+		sprite planet/gas7
+		distance 3943
+		period 1276.8
+		object
+			sprite planet/lava0
+			distance 270
+			period 116.108
+		object
+			sprite planet/europa
+			distance 437
+			period 432.149
+		object
+			sprite planet/io
+			distance 614
+			period 575.113
+	object
+		sprite planet/asura
+		distance 7651
+		period 3451.121
 
 system Alis
 	pos 500.718 -1036.55
 	government Wherna
+	habitable 2300
+	belt 1291 5
+	belt 1549 3
 	link Polasdon
-	link Wer*antas
+	link Werantas
+	asteroids "large metal" 1 3.584
+	object
+		sprite star/m-giant
+		period 10
+	object
+		sprite planet/tethys-b
+		distance 680.292
+		period 142.708
+	object
+		sprite planet/desert2
+		distance 1187
+		period 341.092
+	object
+		sprite planet/browndwarf-y
+		distance 2341
+		period 944.709
+		object
+			sprite planet/ice0-b
+			distance 275
+			period 172.385
+	object
+		sprite planet/rhea-b
+		distance 4679
+		period 2669.474
+	object
+		sprite planet/gas15
+		distance 8268
+		period 6270.422
+		object
+			sprite planet/rock14-b
+			distance 249
+			period 102.829
+	object
+		sprite planet/gas4
+		distance 9344
+		period 7533.474
+		object
+			sprite planet/io-b
+			distance 261
+			period 159.39
+		object
+			sprite planet/redias
+			distance 343
+			period nan
+		object
+			sprite planet/beryl/beryl
+			distance 457
+			period 255.677
 
 system Hulaina
 	pos 618.718 -975.55
@@ -111,10 +223,10 @@ system Hulaina
 		object
 			sprite planet/treser
 			distance 220
-			period nan
+			period 0
 
 system Orilasa
-	pos 477.718 176.45
+	pos 410.718 65.45
 	government Uninhabited
 	habitable 7000
 	belt 1528 10

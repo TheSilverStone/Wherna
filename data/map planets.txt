@@ -1,9 +1,9 @@
 planet Tsaradian
 	landscape land/badlands1
 	description "This planet was considered to be the first planet the Wherna lived on. However, nobody really knows, and as most Wherna live on this planet, it is only considered such because the majority of Wherna here like to prove that their planet is best."
-	description "Mining has improved this planet, as the considerable valuable astroids form precious deposits. Many Wherna are on the steep, dirty stairs down to the station, where a will take them to the city."
+	description "Mining has improved this planet, as the considerable valuable astroids form precious deposits. Many Wherna are on the steep, dirty stairs down to the station, where a will ship take them to the city."
 	spaceport "The spaceport is on the top of the highest mountain, rendering it visible from space. This also makes it subject to possible bombing, if an enemy happened along."
-	spaceport "Many captains are landing and taking off, and ocasionly two ships will crash. Many other wherna watch this as they wait for their ships or wait for refueling."
+	spaceport "Many captains are landing and taking off, and occasionally two ships will crash. Many other Wherna watch this as they wait for their ships or wait for refueling."
 	outfitter "Wherna Basics"
 
 planet ???
@@ -13,3 +13,12 @@ wormhole oriliasa
 	link Hulaina Orilasa
 	link Orilasa Hulaina
 	color "wormholes: Ember Waste"
+	mappable
+
+planet Tsadonless
+	landscape land/forest3
+	description "This is a popular tourist destination, but only because it has many warm springs, heated by deposits of molten gold, and the Wherna have found a way to extract it."
+	description "The majority of Wherna on this planet live in solitude, among the strange flimsy plants, many of which have strange flowers of various shapes and sizes."
+	spaceport "The spaceport is the fanciest one in Wherna space, since it is made of sold gold. Many captains are trading other metals for gold, where they will ship them to other planets."
+	spaceport "The spaceport is dark and dirty, and the landing pads are few and cracked. Apparently, the Wherna government has given up on this planet."
+	outfitter "Wherna Basics"
