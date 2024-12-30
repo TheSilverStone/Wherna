@@ -15,11 +15,12 @@ system Werantas
 	minables titanium 2 2.257
 	object
 		sprite star/o0
-		period 10
+		period 10.126
+		distance 34
 	object
-		sprite planet/ocean1-b
-		distance 439
-		period 31.411
+		sprite star/o1
+		distance 15
+		period 69.563
 	object Tsaradian
 		sprite planet/rock12
 		distance 769
@@ -137,7 +138,7 @@ system Alis
 		sprite planet/browndwarf-y
 		distance 2341
 		period 944.709
-		object
+		object Varnoka
 			sprite planet/ice0-b
 			distance 275
 			period 172.385

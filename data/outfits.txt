@@ -23,7 +23,7 @@ outfit "Ruckaos Thruster"
 	"thrusting heat" 0.4
 	"flare sprite" "effect/ruckaos/huge"
 		"frame rate" 0.1
-		scale 0.7
+		scale 1
 
 outfit "Ruckaos Reverse Thruster"
 	category Engines

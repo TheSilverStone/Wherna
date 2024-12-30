@@ -2,7 +2,7 @@ planet Tsaradian
 	landscape land/badlands1
 	description "This planet was considered to be the first planet the Wherna lived on. However, nobody really knows, and as most Wherna live on this planet, it is only considered such because the majority of Wherna here like to prove that their planet is best."
 	description "Mining has improved this planet, as the considerable valuable astroids form precious deposits. Many Wherna are on the steep, dirty stairs down to the station, where a will ship take them to the city."
-	spaceport "The spaceport is on the top of the highest mountain, rendering it visible from space. This also makes it subject to possible bombing, if an enemy happened along."
+	spaceport "The spaceport is on the top of the highest mountain, rendering it visible from space. This also makes it subject to possible bombing, if an enemy happened along. The view from the spaceport is breathtaking, as many mountains, rocks and vegetation spread out below. Tsaradian's twin moons light this planet well."
 	spaceport "Many captains are landing and taking off, and occasionally two ships will crash. Many other Wherna watch this as they wait for their ships or wait for refueling."
 	outfitter "Wherna Basics"
 
@@ -19,6 +19,14 @@ planet Tsadonless
 	landscape land/forest3
 	description "This is a popular tourist destination, but only because it has many warm springs, heated by deposits of molten gold, and the Wherna have found a way to extract it."
 	description "The majority of Wherna on this planet live in solitude, among the strange flimsy plants, many of which have strange flowers of various shapes and sizes."
-	spaceport "The spaceport is the fanciest one in Wherna space, since it is made of sold gold. Many captains are trading other metals for gold, where they will ship them to other planets."
-	spaceport "The spaceport is dark and dirty, and the landing pads are few and cracked. Apparently, the Wherna government has given up on this planet."
+	spaceport "The spaceport is the fanciest one in Wherna space, since it is made of solid gold, though very dusty. Many captains are trading other metals for gold, where they will ship them to other planets."
+	spaceport "The spaceport is dark and dirty, and the landing pads are few and cracked. Apparently, the Wherna government has given up on this planet, and the although buildings around most spaceports are terrible, buildings such as the ones here are rarely seen anywhere."
+	outfitter "Wherna Basics"
+
+planet Varnoka
+	landscape land/snow0
+	description "A snowy planet such as Varnoka is rare. Most planets usually have some amount of snow somewhere, but it looks as if all the snow in the universe was dumped right here, for no apparent reason then to make life miserable for the Wherna on Varnoka. Snowstorms frequently decimate every city, meaning many Wherna have moved instead to Wernoka, which, being so close and not as cold, is pleasanter to live on."
+	description "The houses on this planet, if you could call them houses, are very sturdy and most of them have been around since at least 2912. They resemble from the air giant beehives, dumped on the surface of the never-melting snow."
+	spaceport "Many Wherna have often questioned whether a spaceport is any use if you can't find it, and though the government hasn't given up on Varnoka yet, it is very probable that it soon will. The spaceport is mostly hidden under the snow, and snowstorms always cover it completely. Fortunately, a ship is employed in using its thrusters to remelt the snow as soon as possible after each snowstorm."
+	spaceport "	The spaceport is dark and dirty, and the landing pads are few and cracked. Apparently, the Wherna government has given up on this planet, and the although buildings around most spaceports are terrible, buildings such as the ones here are rarely seen anywhere."
 	outfitter "Wherna Basics"
