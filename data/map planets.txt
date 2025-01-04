@@ -30,3 +30,11 @@ planet Varnoka
 	spaceport "Many Wherna have often questioned whether a spaceport is any use if you can't find it, and though the government hasn't given up on Varnoka yet, it is very probable that it soon will. The spaceport is mostly hidden under the snow, and snowstorms always cover it completely. Fortunately, a ship is employed in using its thrusters to remelt the snow as soon as possible after each snowstorm."
 	spaceport "	The spaceport is dark and dirty, and the landing pads are few and cracked. Apparently, the Wherna government has given up on this planet, and the although buildings around most spaceports are terrible, buildings such as the ones here are rarely seen anywhere."
 	outfitter "Wherna Basics"
+
+planet Roknos
+	description "This planet is covered in clouds of mist which do not blow away, but simply hang in the air. The gravity is low enough that if you jumped, you would most likely never come down again. The pressure, also, is unbearable, and the Jornil's antigravity plates are weak enough that if they landed on any other planet they would be unable to take of again. Roknos was discovered by the Jornil fleeing the Korath, and they have learned some of their unspeakable techniques, which's evidence is sprawled across Roknos."
+	spaceport "The spaceport has refuse lying about everywhere, the smell is unbearable and weeping of captured Wherna echos through it. The spaceport itself is the only small one in Daroke space, and it only provides landing for close to a hundred Jornil."
+	government Jornil
+	"required reputation" 10
+	tribute 10000000
+		fleet "Builders Drone"

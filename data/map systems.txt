@@ -274,3 +274,56 @@ system Orilasa
 			distance 468
 			period 314.882
 
+system Dornasdadon
+	pos 492.718 -1130.55
+	government Jornil
+	habitable 0
+	belt 1730 9
+	belt 2239 3
+	asteroids "small rock" 2 4.29
+	asteroids "medium rock" 4 3.41
+	asteroids "large rock" 5 4.565
+	asteroids "small metal" 5 3.575
+	asteroids "medium metal" 2 4.84
+	asteroids "large metal" 7 5.5
+	minables uranium 1 8.657
+	minables lead 3 7.186
+	minables titanium 3 7.506
+	object
+		sprite star/m4
+		period 10
+	object Roknos
+		sprite planet/rock4-b
+		distance 387
+	object
+		sprite planet/gas6
+		distance 1341
+		object
+			sprite planet/lava0
+			distance 394
+			period 204.674
+	object
+		sprite planet/gas15
+		distance 2723
+		object
+			sprite planet/rock3-b
+			distance 226
+			period 128.429
+	object
+		sprite planet/gas7-hot
+		distance 3476
+		object
+			sprite planet/dust0
+			distance 199
+			period 172.892
+	object
+		sprite planet/gas10-hot
+		distance 9849
+		object
+			sprite planet/dust1
+			distance 246
+			period 120
+		object
+			sprite planet/ice0
+			distance 407
+			period 310.379

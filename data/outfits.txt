@@ -1,3 +1,10 @@
+outfit "Wherna Map"
+	category "Special"
+	cost 1000
+	thumbnail "outfit/map"
+	"map" 5
+	description "This data chip contains complete information on the five star systems closest to this one: planets, ports, governments, trade prices, available services, etc. You can get all the same information just by exploring those systems yourself, but having a map can save you from making wrong turns if you are trying to travel through new territory to reach a certain system quickly."
+
 outfit "Ruckaos Steering"
 	category Engines
 	plural "Ruckaos steering"
