@@ -1,7 +1,7 @@
 outfit "Wherna Map"
-	category "Special"
+	category Special
 	cost 1000
-	thumbnail "outfit/map"
+	thumbnail outfit/map
 	"map" 5
 	description "This data chip contains complete information on the five star systems closest to this one: planets, ports, governments, trade prices, available services, etc. You can get all the same information just by exploring those systems yourself, but having a map can save you from making wrong turns if you are trying to travel through new territory to reach a certain system quickly."
 
@@ -9,39 +9,130 @@ outfit "Ruckaos Steering"
 	category Engines
 	plural "Ruckaos steering"
 	cost 1500000
-	"mass" 0.5
+	"mass" 1
 	"outfit space" -25
 	"engine capacity" -25
 	"turn" 15
 	"turning energy" 6.6
 	"turning heat" 17.5
-	"steering flare sprite" "effect/ruckaos/huge"
+	"steering flare sprite" effect/ruckaos/huge
 		"frame rate" 0.1
 
 outfit "Ruckaos Thruster"
 	category Engines
 	plural "Ruckaos thrusters"
 	cost 1500000
-	"mass" 0.5
+	"mass" 1
 	"outfit space" -25
 	"engine capacity" -25
 	"thrust" 15
 	"thrusting energy" 0.7
 	"thrusting heat" 0.4
-	"flare sprite" "effect/ruckaos/huge"
+	"flare sprite" effect/ruckaos/huge
 		"frame rate" 0.1
-		scale 1
 
 outfit "Ruckaos Reverse Thruster"
 	category Engines
 	plural "Ruckaos thrusters"
 	cost 1500000
-	"mass" 0.5
+	"mass" 1
 	"outfit space" -25
 	"engine capacity" -25
 	"reverse thrust" 15
 	"reverse thrusting energy" 0.7
 	"reverse thrusting heat" 0.4
-	"flare sprite" "effect/ruckaos/huge"
+	"flare sprite" effect/ruckaos/huge
 		"frame rate" 0.1
 		scale 0.7
+
+outfit "Runuisa cooling"
+	category Systems
+	plural "Runuisa cooling systems"
+	cost 1905600
+	thumbnail "outfit/cooling ducts"
+	"mass" 10
+	"outfit space" -13
+	"cooling" 17
+
+outfit "Ruckaos cooling"
+	category Systems
+	plural "Ruckaos cooling systems"
+	cost 3125800
+	thumbnail "outfit/cooling ducts"
+	"mass" 10
+	"outfit space" -23
+	"cooling" 34
+
+outfit "Runuisa Steering"
+	category Engines
+	plural "Runuisa steering"
+	cost 1500000
+	"mass" 0.5
+	"outfit space" -15
+	"engine capacity" -15
+	"turn" 10
+	"turning energy" 6.6
+	"turning heat" 17.5
+	"steering flare sprite" effect/ruckaos/huge
+		"frame rate" 0.1
+
+outfit "Runuisa Thruster"
+	category Engines
+	plural "Runuisa thrusters"
+	cost 1500000
+	"mass" 0.5
+	"outfit space" -15
+	"engine capacity" -15
+	"thrust" 10
+	"thrusting energy" 0.7
+	"thrusting heat" 0.4
+	"flare sprite" effect/ruckaos/huge
+		"frame rate" 0.1
+
+outfit "Runuisa Reverse Thruster"
+	category Engines
+	plural "Runuisa thrusters"
+	cost 1500000
+	"mass" 0.5
+	"outfit space" -15
+	"engine capacity" -15
+	"reverse thrust" 10
+	"reverse thrusting energy" 0.7
+	"reverse thrusting heat" 0.4
+	"flare sprite" effect/ruckaos/huge
+		"frame rate" 0.1
+		scale 0.7
+
+outfit "Runuisa Regenerator"
+	category Power
+	plural "Runuisa Regenerators"
+	cost 15300
+	"mass" 4.3
+	"shield energy" 3.42
+	"shield generation" 10.46
+	description "This regenerator is the weakest energy generator in Wherna space, and it is mostly used by fighter pilots, which get to design their own fighters. It studies where the fighters in relation to the mothership, and if it isn't close it regenerates shields."
+
+outfit "Ruckaos Regenerator"
+	category Systems
+	plural "Ruckaos Regenerators"
+	cost 15700
+	"mass" 4.7
+	"shield energy" 4.26
+	"shield generation" 13.39
+	description "This regenerator is the one of weakest shield generator in Wherna space, and it is mostly used by fighter pilots, which get to design their own fighters. It studies where the fighters in relation to the mothership, and if it isn't close it regenerates shields."
+
+outfit "Runuisa Regenerator"
+	category Power
+	plural "Runuisa Regenerators"
+	cost 15300
+	"mass" 4.3
+	"energy generation" 10.46
+	description "This regenerator is the weakest energy generator in Wherna space, and it is mostly used by fighter pilots, which get to design their own fighters. It studies where the fighters in relation to the mothership, and if it isn't close it regenerates shields."
+
+outfit "Ruckaos Regenerator"
+	category Power
+	plural "Ruckaos Regenerators"
+	cost 15700
+	"mass" 4.7
+	"energy generation" 13.39
+	description "This regenerator is the one of weakest energy generator in Wherna space, and it is mostly used by fighter pilots, which get to design their own fighters. It studies where the fighters in relation to the mothership, and if it isn't close it regenerates shields."

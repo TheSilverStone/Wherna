@@ -4,7 +4,7 @@ planet Tsaradian
 	description "Mining has improved this planet, as the considerable valuable astroids form precious deposits. Many Wherna are on the steep, dirty stairs down to the station, where a will ship take them to the city."
 	spaceport "The spaceport is on the top of the highest mountain, rendering it visible from space. This also makes it subject to possible bombing, if an enemy happened along. The view from the spaceport is breathtaking, as many mountains, rocks and vegetation spread out below. Tsaradian's twin moons light this planet well."
 	spaceport "Many captains are landing and taking off, and occasionally two ships will crash. Many other Wherna watch this as they wait for their ships or wait for refueling."
-	outfitter "Wherna Basics"
+	outfitter "Wherna Advanced"
 
 planet ???
 	wormhole oriliasa
@@ -28,13 +28,12 @@ planet Varnoka
 	description "A snowy planet such as Varnoka is rare. Most planets usually have some amount of snow somewhere, but it looks as if all the snow in the universe was dumped right here, for no apparent reason then to make life miserable for the Wherna on Varnoka. Snowstorms frequently decimate every city, meaning many Wherna have moved instead to Wernoka, which, being so close and not as cold, is pleasanter to live on."
 	description "The houses on this planet, if you could call them houses, are very sturdy and most of them have been around since at least 2912. They resemble from the air giant beehives, dumped on the surface of the never-melting snow."
 	spaceport "Many Wherna have often questioned whether a spaceport is any use if you can't find it, and though the government hasn't given up on Varnoka yet, it is very probable that it soon will. The spaceport is mostly hidden under the snow, and snowstorms always cover it completely. Fortunately, a ship is employed in using its thrusters to remelt the snow as soon as possible after each snowstorm."
-	spaceport "	The spaceport is dark and dirty, and the landing pads are few and cracked. Apparently, the Wherna government has given up on this planet, and the although buildings around most spaceports are terrible, buildings such as the ones here are rarely seen anywhere."
 	outfitter "Wherna Basics"
 
 planet Roknos
-	description "This planet is covered in clouds of mist which do not blow away, but simply hang in the air. The gravity is low enough that if you jumped, you would most likely never come down again. The pressure, also, is unbearable, and the Jornil's antigravity plates are weak enough that if they landed on any other planet they would be unable to take of again. Roknos was discovered by the Jornil fleeing the Korath, and they have learned some of their unspeakable techniques, which's evidence is sprawled across Roknos."
-	spaceport "The spaceport has refuse lying about everywhere, the smell is unbearable and weeping of captured Wherna echos through it. The spaceport itself is the only small one in Daroke space, and it only provides landing for close to a hundred Jornil."
-	government Jornil
+	description "This planet is covered in clouds of mist which do not blow away, but simply hang in the air. The gravity is low enough that if you jumped, you would most likely never come down again. The pressure, also, is unbearable, and the Rathalan's antigravity plates are weak enough that if they landed on any other planet they would be unable to take of again. Roknos was discovered by the Rathalan fleeing the Korath, and they have learned some of their unspeakable techniques, which's evidence is sprawled across Roknos."
+	spaceport "The spaceport has refuse lying about everywhere, the smell is unbearable and weeping of captured Wherna echos through it. The spaceport itself is the only small one in Daroke space, and it only provides landing for close to a hundred Rathalan."
+	government Rathalan
 	"required reputation" 10
-	tribute 10000000
+	tribute 5000000
 		fleet "Builders Drone"

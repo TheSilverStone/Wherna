@@ -15,8 +15,8 @@ system Werantas
 	minables titanium 2 2.257
 	object
 		sprite star/o0
-		period 10.126
 		distance 34
+		period 10.126
 	object
 		sprite star/o1
 		distance 15
@@ -165,7 +165,7 @@ system Alis
 		object
 			sprite planet/redias
 			distance 343
-			period nan
+			period 0
 		object
 			sprite planet/beryl/beryl
 			distance 457
@@ -276,7 +276,7 @@ system Orilasa
 
 system Dornasdadon
 	pos 492.718 -1130.55
-	government Jornil
+	government Rathalan
 	habitable 0
 	belt 1730 9
 	belt 2239 3
@@ -327,3 +327,4 @@ system Dornasdadon
 			sprite planet/ice0
 			distance 407
 			period 310.379
+
