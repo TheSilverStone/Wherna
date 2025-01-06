@@ -103,36 +103,44 @@ outfit "Runuisa Reverse Thruster"
 		"frame rate" 0.1
 		scale 0.7
 
-outfit "Runuisa Regenerator"
+outfit "Runuisa Energy Regenerator"
 	category Power
-	plural "Runuisa Regenerators"
+	plural "Runuisa Energy Regenerators"
 	cost 15300
+	thumbnail "outfit/tiny fuel cell"
 	"mass" 4.3
+	"outfit space" -5
+	"energy generation" 13.39
+	description "This regenerator is one of the weakest energy generator in Wherna space, and it is mostly used by fighter pilots, which get to design their own fighters. It studies where the fighters in relation to the mothership, and if it isn't close it regenerates shields."
+
+outfit "Runuisa Shield Regenerator"
+	category Systems
+	plural "Ruckaos Shield Regenerators"
+	cost 15700
+	thumbnail "outfit/tiny shield"
+	"mass" 4.7
+	"outfit space" -5
 	"shield energy" 3.42
 	"shield generation" 10.46
-	description "This regenerator is the weakest energy generator in Wherna space, and it is mostly used by fighter pilots, which get to design their own fighters. It studies where the fighters in relation to the mothership, and if it isn't close it regenerates shields."
-
-outfit "Ruckaos Regenerator"
-	category Systems
-	plural "Ruckaos Regenerators"
-	cost 15700
-	"mass" 4.7
-	"shield energy" 4.26
-	"shield generation" 13.39
 	description "This regenerator is the one of weakest shield generator in Wherna space, and it is mostly used by fighter pilots, which get to design their own fighters. It studies where the fighters in relation to the mothership, and if it isn't close it regenerates shields."
 
-outfit "Runuisa Regenerator"
+outfit "Ruckaos Energy Regenerator"
 	category Power
-	plural "Runuisa Regenerators"
+	plural "Runuisa Energy Regenerators"
 	cost 15300
+	thumbnail "outfit/small fuel cell"
 	"mass" 4.3
+	"outfit space" -9
 	"energy generation" 10.46
 	description "This regenerator is the weakest energy generator in Wherna space, and it is mostly used by fighter pilots, which get to design their own fighters. It studies where the fighters in relation to the mothership, and if it isn't close it regenerates shields."
 
-outfit "Ruckaos Regenerator"
-	category Power
-	plural "Ruckaos Regenerators"
+outfit "Ruckaos Shield Regenerator"
+	category "Systems"
+	plural "Ruckaos Shield Regenerators"
 	cost 15700
+	thumbnail "outfit/small shield"
 	"mass" 4.7
-	"energy generation" 13.39
-	description "This regenerator is the one of weakest energy generator in Wherna space, and it is mostly used by fighter pilots, which get to design their own fighters. It studies where the fighters in relation to the mothership, and if it isn't close it regenerates shields."
+	"outfit space" -9
+	"shield energy" 4.26
+	"shield generation" 13.39
+	description "This regenerator is the one of weakest shield generator in Wherna space, and it is mostly used by fighter pilots, which get to design their own fighters. It studies where the fighters in relation to the mothership, and if it isn't close it regenerates shields."
