@@ -155,6 +155,7 @@ outfit "Inruni Laser"
 	cost 13700
 	thumbnail "outfit/heavy laser"
 	"mass" 3
+	"gun ports" -1
 	weapon
 		sprite "projectile/heavy laser"
 		sound "heavy laser"
@@ -169,7 +170,7 @@ outfit "Inruni Laser"
 		"fuel damage" 0.56
 		"heat damage" 0.2
 		"energy damage" 0.98
-		"ion damage" 0.001
-		"slowing damage" 0.46
+		"ion damage" 5
+		"slowing damage" 2.5
 	description "The Inruni Laser is a marvel of engineering, though it only takes quantum physics and re-uses the theory. it generates a beam if star-light and use the destructive energy of the black hole in Sagittarius a."
 
