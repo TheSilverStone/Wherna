@@ -7,8 +7,9 @@ outfit "Wherna Map"
 
 outfit "Ruckaos Steering"
 	category Engines
-	plural "Ruckaos steering"
+	plural "Ruckaos Steering Units"
 	cost 1500000
+	thumbnail "outfit/small ion steering"
 	"mass" 1
 	"outfit space" -25
 	"engine capacity" -25
@@ -22,6 +23,7 @@ outfit "Ruckaos Thruster"
 	category Engines
 	plural "Ruckaos thrusters"
 	cost 1500000
+	thumbnail "outfit/small ion thruster"
 	"mass" 1
 	"outfit space" -25
 	"engine capacity" -25
@@ -35,6 +37,7 @@ outfit "Ruckaos Reverse Thruster"
 	category Engines
 	plural "Ruckaos thrusters"
 	cost 1500000
+	thumbnail "outfit/reverse thruster ion"
 	"mass" 1
 	"outfit space" -25
 	"engine capacity" -25
@@ -67,6 +70,7 @@ outfit "Runuisa Steering"
 	category Engines
 	plural "Runuisa steering"
 	cost 1500000
+	thumbnail "outfit/tiny ion steering"
 	"mass" 0.5
 	"outfit space" -15
 	"engine capacity" -15
@@ -80,6 +84,7 @@ outfit "Runuisa Thruster"
 	category Engines
 	plural "Runuisa thrusters"
 	cost 1500000
+	thumbnail "outfit/tiny ion thruster"
 	"mass" 0.5
 	"outfit space" -15
 	"engine capacity" -15
@@ -93,6 +98,7 @@ outfit "Runuisa Reverse Thruster"
 	category Engines
 	plural "Runuisa thrusters"
 	cost 1500000
+	thumbnail "outfit/reverse thruster ion"
 	"mass" 0.5
 	"outfit space" -15
 	"engine capacity" -15
@@ -105,7 +111,6 @@ outfit "Runuisa Reverse Thruster"
 
 outfit "Runuisa Energy Regenerator"
 	category Power
-	plural "Runuisa Energy Regenerators"
 	cost 15300
 	thumbnail "outfit/tiny fuel cell"
 	"mass" 4.3
@@ -120,8 +125,8 @@ outfit "Runuisa Shield Regenerator"
 	thumbnail "outfit/tiny shield"
 	"mass" 4.7
 	"outfit space" -5
-	"shield energy" 3.42
 	"shield generation" 10.46
+	"shield energy" 3.42
 	description "This regenerator is the one of weakest shield generator in Wherna space, and it is mostly used by fighter pilots, which get to design their own fighters. It studies where the fighters in relation to the mothership, and if it isn't close it regenerates shields."
 
 outfit "Ruckaos Energy Regenerator"
@@ -135,12 +140,36 @@ outfit "Ruckaos Energy Regenerator"
 	description "This regenerator is the weakest energy generator in Wherna space, and it is mostly used by fighter pilots, which get to design their own fighters. It studies where the fighters in relation to the mothership, and if it isn't close it regenerates shields."
 
 outfit "Ruckaos Shield Regenerator"
-	category "Systems"
-	plural "Ruckaos Shield Regenerators"
+	category Systems
 	cost 15700
 	thumbnail "outfit/small shield"
 	"mass" 4.7
 	"outfit space" -9
-	"shield energy" 4.26
 	"shield generation" 13.39
+	"shield energy" 4.26
 	description "This regenerator is the one of weakest shield generator in Wherna space, and it is mostly used by fighter pilots, which get to design their own fighters. It studies where the fighters in relation to the mothership, and if it isn't close it regenerates shields."
+
+outfit "Inruni Laser"
+	category Guns
+	plural "Inruni Lasers"
+	cost 13700
+	thumbnail "outfit/heavy laser"
+	"mass" 3
+	weapon
+		sprite "projectile/heavy laser"
+		sound "heavy laser"
+		"velocity" 400
+		lifetime 400
+		"firing energy" 10
+		"firing force" 0.34
+		"firing fuel" 0.034
+		"firing heat" 0.3
+		"shield damage" 34
+		"hull damage" 35
+		"fuel damage" 0.56
+		"heat damage" 0.2
+		"energy damage" 0.98
+		"ion damage" 0.001
+		"slowing damage" 0.46
+	description "The Inruni Laser is a marvel of engineering, though it only takes quantum physics and re-uses the theory. it generates a beam if star-light and use the destructive energy of the black hole in Sagittarius a."
+

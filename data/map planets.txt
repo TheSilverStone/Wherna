@@ -37,3 +37,10 @@ planet Roknos
 	"required reputation" 10
 	tribute 5000000
 		fleet "Builders Drone"
+
+planet Jurnuri
+	landscape land/sky8
+	description "Jurnuri is a watery world, with rivers constantly flowing into the never-evaporating sea. The gas planet is slowly sending water through space to land Jururni. The astroids in this systems are only minables, as the astroids have been disolving for years under the steady onslaught of water that wears them down."
+	spaceport "Jurnuri's spaceport is underwater, in a giant glass dome. This dome is rasied and lowered on pistons beneath and above the sea, which isn't salty, unlike most oceans. The dome slides open and closed to allow ships to enter or to forbid them from doing so."
+	government Wherna
+	outfitter "Wherna Advanced"

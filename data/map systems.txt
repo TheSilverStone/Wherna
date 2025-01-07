@@ -53,6 +53,7 @@ system Polasdon
 	belt 1625 5
 	link Alis
 	link Hulaina
+	link Ranorackaos
 	link Werantas
 	asteroids "small rock" 2 1.602
 	asteroids "medium rock" 7 2.717
@@ -328,3 +329,63 @@ system Dornasdadon
 			distance 407
 			period 310.379
 
+system Ranorackaos
+	pos 592.718 -1048.55
+	government Wherna
+	habitable 1250
+	belt 1053 3
+	belt 2109 7
+	link Polasdon
+	asteroids "small rock" 4 4.416
+	asteroids "medium rock" 16 2.926
+	asteroids "large rock" 11 4.858
+	asteroids "medium metal" 46 3.257
+	asteroids "large metal" 23 2.926
+	minables copper 8 5.685
+	object
+		sprite star/g5-old
+		period 10
+	object
+		sprite planet/europa-b
+		distance 330
+		period 67.823
+	object Jurnuri
+		sprite planet/ice8
+		distance 696
+		period 207.739
+	object
+		sprite planet/oberon-b
+		distance 1139
+		period 434.901
+	object
+		sprite planet/gas15
+		distance 4063
+		period 2930.051
+		object
+			sprite planet/callisto
+			distance 246
+			period 100.976
+		object
+			sprite planet/tethys-b
+			distance 390
+			period 474.342
+		object
+			sprite planet/rock0-b
+			distance 537
+			period 470.394
+	object
+		sprite planet/gas6
+		distance 8151
+		period 8325.711
+	object
+		sprite planet/uranus
+		distance 12322
+		period 15474.862
+		object
+			sprite planet/rock0
+			distance 229
+			period 130.995
+		object
+			sprite planet/dust3
+			distance 367
+			period 265.766
