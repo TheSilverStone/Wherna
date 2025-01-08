@@ -165,12 +165,14 @@ outfit "Inruni Laser"
 		"firing force" 0.34
 		"firing fuel" 0.034
 		"firing heat" 0.3
-		"shield damage" 34
-		"hull damage" 35
-		"fuel damage" 0.56
+		"firing hull" 1
+		"piercing" 15.7
+		"shield damage" 18
+		"hull damage" 56
+		"fuel damage" 34.6
 		"heat damage" 0.2
-		"energy damage" 0.98
-		"ion damage" 5
-		"slowing damage" 2.5
-	description "The Inruni Laser is a marvel of engineering, though it only takes quantum physics and re-uses the theory. it generates a beam if star-light and use the destructive energy of the black hole in Sagittarius a."
+		"energy damage" 23
+		"ion damage" 12
+		"slowing damage" 2
+	description "The Inruni Laser is a marvel of engineering, though it only takes quantum physics and re-uses the theory. It generates a beam of star-light and use the destructive energy of the black hole in Sagittarius a."
 

@@ -30,6 +30,12 @@ planet Varnoka
 	spaceport "Many Wherna have often questioned whether a spaceport is any use if you can't find it, and though the government hasn't given up on Varnoka yet, it is very probable that it soon will. The spaceport is mostly hidden under the snow, and snowstorms always cover it completely. Fortunately, a ship is employed in using its thrusters to remelt the snow as soon as possible after each snowstorm."
 	outfitter "Wherna Basics"
 
+planet Wernoka
+	landscape land/valley5
+	description "Wernoka is the twin planet of Varnoka, and although warmer is still very cold. Many of the brightly colored salts on this planet form mines, where the salts are mined, and all of the Wherna wear spacesuits to protect them from the poisoness air."
+	spaceport "The spaceport is brightly colored from the said salts, and it doesn't carry many ships-it only has docking for a few hundred Wherna. Unfortunately, the spaceport is shrinking each year because of the Wherna who take bits of it for antiques."
+	outfitter "Wherna Basics"
+
 planet Roknos
 	description "This planet is covered in clouds of mist which do not blow away, but simply hang in the air. The gravity is low enough that if you jumped, you would most likely never come down again. The pressure, also, is unbearable, and the Rathalan's antigravity plates are weak enough that if they landed on any other planet they would be unable to take of again. Roknos was discovered by the Rathalan fleeing the Korath, and they have learned some of their unspeakable techniques, which's evidence is sprawled across Roknos."
 	spaceport "The spaceport has refuse lying about everywhere, the smell is unbearable and weeping of captured Wherna echos through it. The spaceport itself is the only small one in Daroke space, and it only provides landing for close to a hundred Rathalan."

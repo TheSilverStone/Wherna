@@ -131,7 +131,7 @@ system Alis
 		sprite planet/tethys-b
 		distance 680.292
 		period 142.708
-	object
+	object Wernoka
 		sprite planet/desert2
 		distance 1187
 		period 341.092
