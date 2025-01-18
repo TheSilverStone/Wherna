@@ -1,0 +1,45 @@
+ship "Vornilina"
+	sprite "ship/bulk freighter"
+	thumbnail "thumbnail/bulk freighter"
+	attributes
+		category "Heavy Freighter"
+		"cost" 4502300
+		"shields" 50000
+		"hull" 4500
+		"required crew" 7
+		"bunks" 10
+		"drag" 30
+		"heat dissipation" .4
+		"fuel capacity" 500
+		"cargo space" 125
+		"outfit space" 205
+		"weapon capacity" 75
+		"engine capacity" 80
+		weapon
+			"blast radius" 56
+			"shield damage" 600
+			"hull damage" 300
+			"hit force" 900
+	outfits
+		"Inruni Laser" 3
+
+		"Ruckaos Shield Regenerator"
+		"Ruckaos Energy Regenerator"
+
+		"Ruckaos Steering"
+		"Ruckaos Thruster"
+		"Ruckaos Reverse Thruster"
+		"Hyperdrive"
+		
+	engine 0 0
+	gun 0 0 "Inruni Laser"
+	gun 0 0 "Inruni Laser"
+	gun 0 0 "Inruni Laser"
+	leak "leak" 50 50
+	leak "flame" 50 80
+	leak "big leak" 90 30
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 25
+	explode "large explosion" 10
+	"final explode" "final explosion medium"

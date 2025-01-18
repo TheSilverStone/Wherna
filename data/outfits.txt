@@ -163,6 +163,8 @@ outfit "Inruni Laser"
 		lifetime 400
 		"firing energy" 10
 		"firing force" 0.34
+		"outfit space" -68
+		"weapon capacity" 67
 		"firing fuel" 0.034
 		"firing heat" 0.3
 		"firing hull" 1
