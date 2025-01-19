@@ -1,6 +1,6 @@
 ship "Vornilina"
-	sprite "ship/bulk freighter"
-	thumbnail "thumbnail/bulk freighter"
+	sprite "ship/heavy freighter"
+	thumbnail "thumbnail/heavy freighter"
 	attributes
 		category "Heavy Freighter"
 		"cost" 4502300
