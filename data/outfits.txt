@@ -77,7 +77,7 @@ outfit "Runuisa Steering"
 	"turn" 10
 	"turning energy" 6.6
 	"turning heat" 17.5
-	"steering flare sprite" effect/ruckaos/huge
+	"steering flare sprite" effect/runuisa/huge
 		"frame rate" 0.1
 
 outfit "Runuisa Thruster"
@@ -91,7 +91,7 @@ outfit "Runuisa Thruster"
 	"thrust" 10
 	"thrusting energy" 0.7
 	"thrusting heat" 0.4
-	"flare sprite" effect/ruckaos/huge
+	"flare sprite" effect/runuisa/huge
 		"frame rate" 0.1
 
 outfit "Runuisa Reverse Thruster"
@@ -105,7 +105,7 @@ outfit "Runuisa Reverse Thruster"
 	"reverse thrust" 10
 	"reverse thrusting energy" 0.7
 	"reverse thrusting heat" 0.4
-	"flare sprite" effect/ruckaos/huge
+	"flare sprite" effect/runuisa/huge
 		"frame rate" 0.1
 		scale 0.7
 
@@ -162,19 +162,15 @@ outfit "Inruni Laser"
 		"velocity" 400
 		lifetime 400
 		"firing energy" 10
-		"firing force" 0.34
+		"firing force" 1
 		"outfit space" -68
 		"weapon capacity" 67
-		"firing fuel" 0.034
 		"firing heat" 0.3
 		"firing hull" 1
-		"piercing" 15.7
+		"piercing" 1
 		"shield damage" 18
-		"hull damage" 56
-		"fuel damage" 34.6
-		"heat damage" 0.2
-		"energy damage" 23
+		"hull damage" 15
+		"fuel damage" 50
 		"ion damage" 12
-		"slowing damage" 2
 	description "The Inruni Laser is a marvel of engineering, though it only takes quantum physics and re-uses the theory. It generates a beam of star-light and use the destructive energy of the black hole in Sagittarius a."
 
