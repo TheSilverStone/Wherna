@@ -43,3 +43,50 @@ ship "Vornilina"
 	explode "medium explosion" 25
 	explode "large explosion" 10
 	"final explode" "final explosion medium"
+
+ship "Retardi"
+	sprite "ship/falcon"
+	thumbnail "thumbnail/falcon"
+	attributes
+		category "Medium Warship"
+		"cost" 4704000
+		"shields" 8000
+		"hull" 5000
+		"required crew" 13
+		"bunks" 34
+		"drag" 3
+		"heat dissipation" .4
+		"fuel capacity" 600
+		"cargo space" 50
+		"outfit space" 500
+		"weapon capacity" 175
+		"engine capacity" 100
+		"engine capacity" 80
+		weapon
+			"blast radius" 300
+			"shield damage" 600
+			"hull damage" 300
+			"hit force" 900
+	outfits
+		"Inruni Laser" 3
+
+		"Ruckaos Shield Regenerator"
+		"Ruckaos Energy Regenerator"
+
+		"Ruckaos Steering"
+		"Ruckaos Thruster"
+		"Ruckaos Reverse Thruster"
+		"Hyperdrive"
+		
+	engine 0 0
+	gun 0 0 "Inruni Laser"
+	gun 0 0 "Inruni Laser"
+	gun 0 0 "Inruni Laser"
+	leak "leak" 50 50
+	leak "flame" 50 80
+	leak "big leak" 90 30
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 25
+	explode "large explosion" 10
+	"final explode" "final explosion large"

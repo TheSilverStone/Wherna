@@ -77,7 +77,7 @@ outfit "Runuisa Steering"
 	"turn" 10
 	"turning energy" 6.6
 	"turning heat" 17.5
-	"steering flare sprite" effect/runuisa/huge
+	"steering flare sprite" effect/runuisa/small
 		"frame rate" 0.1
 
 outfit "Runuisa Thruster"
@@ -91,7 +91,7 @@ outfit "Runuisa Thruster"
 	"thrust" 10
 	"thrusting energy" 0.7
 	"thrusting heat" 0.4
-	"flare sprite" effect/runuisa/huge
+	"flare sprite" effect/runuisa/small
 		"frame rate" 0.1
 
 outfit "Runuisa Reverse Thruster"
@@ -105,7 +105,7 @@ outfit "Runuisa Reverse Thruster"
 	"reverse thrust" 10
 	"reverse thrusting energy" 0.7
 	"reverse thrusting heat" 0.4
-	"flare sprite" effect/runuisa/huge
+	"flare sprite" effect/runuisa/small
 		"frame rate" 0.1
 		scale 0.7
 
@@ -161,16 +161,37 @@ outfit "Inruni Laser"
 		sound "heavy laser"
 		"velocity" 400
 		lifetime 400
-		"firing energy" 10
-		"firing force" 1
-		"outfit space" -68
-		"weapon capacity" 67
+		"firing energy" 35
+		"firing force" 15
+		"outfit space" -75
+		"weapon capacity" 90
 		"firing heat" 0.3
 		"firing hull" 1
 		"piercing" 1
-		"shield damage" 18
 		"hull damage" 15
 		"fuel damage" 50
 		"ion damage" 12
-	description "The Inruni Laser is a marvel of engineering, though it only takes quantum physics and re-uses the theory. It generates a beam of star-light and use the destructive energy of the black hole in Sagittarius a."
+	description "The Inruni Laser is a only was only for testing weapons, yet the engineer who designed it obviously knew what he was doing. Mostly used by warship captains, it can't be too powerful at best, for the Wherna only allow military to access the best of their weapons."
+
+outfit "Inruni Blaster"
+	category Guns
+	plural "Inruni Lasers"
+	cost 13700
+	thumbnail "outfit/heavy laser"
+	"mass" 3
+	"gun ports" -1
+	weapon
+		sprite "projectile/wherna blaster"
+		sound "energy blaster"
+		"inaccuracy" 3
+		"velocity" 10.625
+		"lifetime" 48
+		"reload" 12
+		"outfit space" -3
+		"firing energy" 34
+		"hull damage" 6.6
+		"piercing" 1
+		"hull damage" 15
+		"ion damage" 0.5
+	description "The Inruni blaster isn't that advanced, but it doesn't take up much space or energy, even if sometimes it misfires. Most times, it is more of an annoyance than a threat."
 

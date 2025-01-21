@@ -1,2 +1,3 @@
-shipyard "Wherna Basics"
+shipyard "Wherna Advanced"
 	"Vornilina"
+	"Retardi"
