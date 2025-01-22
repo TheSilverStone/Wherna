@@ -54,12 +54,13 @@ ship "Retardi"
 		"hull" 5000
 		"required crew" 13
 		"bunks" 34
-		"drag" 3
 		"heat dissipation" .4
 		"fuel capacity" 600
+		"energy capacity" 5600
 		"cargo space" 50
 		"outfit space" 500
 		"weapon capacity" 175
+		"hull repair" 300
 		"engine capacity" 100
 		"engine capacity" 80
 		weapon

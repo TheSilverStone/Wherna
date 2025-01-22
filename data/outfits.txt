@@ -157,10 +157,10 @@ outfit "Inruni Laser"
 	"mass" 3
 	"gun ports" -1
 	weapon
-		sprite "projectile/heavy laser"
+		sprite "projectile/inruni/untitled"
 		sound "heavy laser"
-		"velocity" 400
-		lifetime 400
+		"velocity" 800
+		lifetime 10
 		"firing energy" 35
 		"firing force" 15
 		"outfit space" -75
