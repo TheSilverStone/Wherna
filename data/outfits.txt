@@ -158,9 +158,10 @@ outfit "Inruni Laser"
 	"gun ports" -1
 	weapon
 		sprite "projectile/inruni/untitled"
-		sound "heavy laser"
+		sound "inruni laser"
+		"hit effect" "inruni hit"
 		"velocity" 800
-		lifetime 10
+		lifetime 0.1
 		"firing energy" 35
 		"firing force" 15
 		"outfit space" -75
@@ -175,23 +176,41 @@ outfit "Inruni Laser"
 
 outfit "Inruni Blaster"
 	category Guns
-	plural "Inruni Lasers"
+	plural "Inruni Blasters"
 	cost 13700
-	thumbnail "outfit/heavy laser"
+	thumbnail "outfit/blaster"
 	"mass" 3
 	"gun ports" -1
 	weapon
-		sprite "projectile/wherna blaster"
+		sprite "projectile/i blaster"
 		sound "energy blaster"
 		"inaccuracy" 3
-		"velocity" 10.625
+		"velocity" 85
 		"lifetime" 48
 		"reload" 12
 		"outfit space" -3
 		"firing energy" 34
 		"hull damage" 6.6
 		"piercing" 1
-		"hull damage" 15
 		"ion damage" 0.5
 	description "The Inruni blaster isn't that advanced, but it doesn't take up much space or energy, even if sometimes it misfires. Most times, it is more of an annoyance than a threat."
 
+outfit "Kilrunis Blaster"
+	category Guns
+	plural "Kilrunis Blasters"
+	cost 13700
+	thumbnail "outfit/blaster"
+	"mass" 3
+	"gun ports" -1
+	weapon
+		sprite "projectile/k blaster"
+		sound "energy blaster"
+		"inaccuracy" 10
+		"velocity" 12
+		"lifetime" 56
+		"reload" 20
+		"outfit space" -1
+		"firing energy" 10
+		"hull damage" 3
+		"piercing" 1
+	description "The Kilrunis Blaster is the weakest weapon in Wherna space. It is only used by those who can't afford anything better, because it is absolutely terrible."
