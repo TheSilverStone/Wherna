@@ -41,9 +41,11 @@ planet Wernoka
 	shipyard "Wherna Advanced"
 
 planet Roknos
+	landscape land/dark storm
 	description "This planet is covered in clouds of mist which do not blow away, but simply hang in the air. The gravity is low enough that if you jumped, you would most likely never come down again. The pressure, also, is unbearable, and the Rathalan's antigravity plates are weak enough that if they landed on any other planet they would be unable to take of again. Roknos was discovered by the Rathalan fleeing the Korath, and they have learned some of their unspeakable techniques, which's evidence is sprawled across Roknos."
 	spaceport "The spaceport has refuse lying about everywhere, the smell is unbearable and weeping of captured Wherna echos through it. The spaceport itself is the only small one in Daroke space, and it only provides landing for close to a hundred Rathalan."
 	government Rathalan
+	outfitter "Rathalan Advanced"
 	"required reputation" 10
 	tribute 5000000
 		fleet "Builders Drone"
@@ -55,3 +57,8 @@ planet Jurnuri
 	government Wherna
 	outfitter "Wherna Advanced"
 	shipyard "Wherna Advanced"
+
+planet Hilana
+	landscape land/mountain41
+	description "Hilana is a rocky, mountain world. The original inhabitants, the Rathalan, have been driven off. Even so, walking through Hilana someone might find some remains murdered in an unspeakable way."
+	spaceport "Most visitors, on landing, ask where the spaceport actually is. The Wherna government has seen trillions of credits on Hilana's spaceport, yet the spaceport is rather bare and ordinary, making you wonder how much other, more lavish spaceports cost."

@@ -23,4 +23,7 @@ outfitter "Wherna Advanced"
 	"Ruckaos Shield Regenerator"
 	"Inruni Blaster"
 	"Kilrunis Blaster"
-	"Inruni Suction"
+
+outfitter "Rathalan Advanced"
+	"Ilnitosis Suction"
+	"Ilnitosis Expeler"
