@@ -62,3 +62,22 @@ planet Hilana
 	landscape land/mountain41
 	description "Hilana is a rocky, mountain world. The original inhabitants, the Rathalan, have been driven off. Even so, walking through Hilana someone might find some remains murdered in an unspeakable way."
 	spaceport "Most visitors, on landing, ask where the spaceport actually is. The Wherna government has seen trillions of credits on Hilana's spaceport, yet the spaceport is rather bare and ordinary, making you wonder how much other, more lavish spaceports cost."
+	government Wherna
+	outfitter "Wherna Advanced"
+	shipyard "Wherna Advanced"
+
+planet Torna
+	landscape land/sky11
+	description "This planet has an inspiring view at nighttime, as millions of shooting stars roar across the sky. Unfortunately, night only comes every six human years, and so its not very often that you get to view this wonder."
+	spaceport "The spaceport has many, tall pillars with polished gems perched on top. A giant domed roof often appears and fades, foretelling the sequence of the moon that night-if night came."
+	government Wherna
+	outfitter "Wherna Advanced"
+	shipyard "Wherna Advanced"
+
+planet Fornata
+	landscape land/fog4
+	description "A foggy, rocky world, Fornata's only tourist view is its precious ores. Many tourists claim they have seen ores that glowed, many different colors scattering and shifting. This report is undoubtedly false, yet the ores are very colorful."
+	spaceport "Tilted on a cliff, some more superstitious Wherna claim that it will fall of some day. The violent south winds often do tilt it, but many supports underneath hold it up, thus giving no reason to fear."
+	government Wherna
+	outfitter "Wherna Advanced"
+	shipyard "Wherna Advanced"

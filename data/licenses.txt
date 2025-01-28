@@ -5,8 +5,3 @@
 #Space sounds by njd -- https://freesound.org/s/723561/ -- License: Creative Commons 0
 #	Engines
 #https://freesound.org/people/Geoff-Bremner-Audio/sounds/769610/
-#
-#Files: images/land/dark storm*
-#Copyright: © ForestWander (https://commons.wikimedia.org/wiki/User:ForestWander)
-#License: Attribution-Share Alike 3.0 United States
-#Comment: Taken from Wikimedia commons. Resized.

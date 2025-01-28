@@ -584,7 +584,7 @@ system Jurnuli
 
 system Ilkan
 	pos 444.718 -1033.55
-	government Uninhabited
+	government Wherna
 	habitable 8400
 	belt 1501 9
 	link Jurnuli
@@ -598,7 +598,7 @@ system Ilkan
 	minables iron 14 3.687
 	minables lead 24 3.489
 	object
-		sprite star/void-scar
+		sprite star/f-supergiant
 		distance 310.75
 		period 273.897
 		offset 180
@@ -610,7 +610,7 @@ system Ilkan
 		sprite planet/gas14-b
 		distance 1123
 		period 164.244
-		object
+		object Fornata
 			sprite planet/desert4-b
 			distance 260
 			period 198.322
@@ -653,7 +653,7 @@ system Ilkan
 
 system Tilbithia
 	pos 651.718 -1015.55
-	government Uninhabited
+	government Wherna
 	habitable 5053.712
 	belt 1343 3
 	link Hulaina
@@ -688,7 +688,7 @@ system Tilbithia
 			sprite planet/rock14-b
 			distance 513
 			period 304.084
-	object
+	object Torna
 		sprite planet/ice8
 		distance 3083
 		period 963.197
@@ -726,7 +726,7 @@ system Unili
 			sprite planet/tethys
 			distance 254
 			period 249.313
-		object
+		object Hilana
 			sprite planet/dust3-b
 			distance 360
 			period 258.199
@@ -734,7 +734,7 @@ system Unili
 		sprite planet/gas6-hot
 		distance 2207
 		period 819.615
-		object Hilana
+		object
 			sprite planet/rock14-b
 			distance 258
 			period 108.454
