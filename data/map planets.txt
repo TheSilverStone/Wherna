@@ -81,3 +81,19 @@ planet Fornata
 	government Wherna
 	outfitter "Wherna Advanced"
 	shipyard "Wherna Advanced"
+
+planet Disna
+	landscape land/beach8-sfiera
+	description "Warm and sunny, Disna is a good planet for the Wherna weary of Varnoka's snowy attacks. However, the  rathalan make frequent raids here, rendering this planet dangerous. This system is a favorate vacation destionation for those overburdened with snow."
+	spaceport "Pearched on the top of some strange plants on the seashore, you notice that most Wherna spaceports are on top of something. The Wherna seem to have a head for heights."
+	government Wherna
+	shipyard "Wherna Advanced"
+	outfitter "Wherna Advanced"
+
+planet Cardan
+	landscape land/desert7
+	description "Cardan is hot, and its many rolling hills of rock can be very confusing to those unaware of the volcanic action beneath. As well as being heated by the huge sun, Cardan is also heated by the lava beneath, providing a broiling planet. The ovens here are made of element that takes heat and intensifies it, providing a burning hot surface."
+	spaceport "The spaceport is one of the few buildings built on solid rock, its sides looking something like a normal building. However, the scale is about ten times larger.
+	government Wherna
+	shipyard "Wherna Advanced"
+	outfitter "Wherna Advanced"

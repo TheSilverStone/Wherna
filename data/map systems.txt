@@ -1,5 +1,5 @@
 system Werantas
-	pos 484.718 -984.55
+	pos 495.218 -986.05
 	government Wherna
 	habitable 13720
 	belt 1444 10
@@ -48,7 +48,7 @@ system Werantas
 		period 1803.647
 
 system Polasdon
-	pos 545.718 -1004.55
+	pos 548.718 -1013.55
 	government Wherna
 	habitable 6016.644
 	belt 1625 5
@@ -117,7 +117,7 @@ system Polasdon
 		period 3451.121
 
 system Alis
-	pos 500.718 -1036.55
+	pos 503.718 -1044.05
 	government Wherna
 	habitable 2300
 	belt 1291 5
@@ -125,6 +125,7 @@ system Alis
 	link Jurnuli
 	link Orinila
 	link Polasdon
+	link Tarnaya
 	link Werantas
 	asteroids "large metal" 1 3.584
 	object
@@ -176,7 +177,7 @@ system Alis
 			period 255.677
 
 system Hulaina
-	pos 618.718 -975.55
+	pos 624.718 -992.05
 	government Uninhabited
 	habitable 5680.009
 	belt 1608 4
@@ -185,6 +186,7 @@ system Hulaina
 	asteroids "medium rock" 1 2.318
 	asteroids "large rock" 1 2.243
 	asteroids "large metal" 1 2.369
+	hazard "Wherna slowing" 60
 	object
 		sprite star/k5-old
 		distance 164
@@ -243,6 +245,7 @@ system Orilasa
 	asteroids "medium metal" 61 1.302
 	asteroids "large metal" 3 0.88
 	minables iron 32 1.527
+	hazard "Wherna slowing" 60
 	object
 		sprite star/b0
 		period 10
@@ -280,7 +283,7 @@ system Orilasa
 			period 314.882
 
 system Dornasdadon
-	pos 389.718 -1111.55
+	pos 398.718 -1132.55
 	government Rathalan
 	habitable 0
 	belt 1730 9
@@ -398,7 +401,7 @@ system Ranorackaos
 			period 265.766
 
 system Orinila
-	pos 538.718 -1073.55
+	pos 565.718 -1072.05
 	government Uninhabited
 	habitable 12342.001
 	belt 1948 6
@@ -413,6 +416,7 @@ system Orinila
 	asteroids "medium metal" 3 2.611
 	asteroids "large metal" 2 2.266
 	minables aluminum 1 4.906
+	hazard "Wherna slowing" 60
 	object
 		sprite star/a-supergiant
 		distance 541.5
@@ -484,7 +488,7 @@ system Orinila
 			period 462.153
 
 system Ilkakanos
-	pos 655.718 -1090.55
+	pos 651.218 -1083.05
 	government Uninhabited
 	habitable 6300
 	belt 1193 10
@@ -499,6 +503,7 @@ system Ilkakanos
 	asteroids "large metal" 20 3.494
 	minables copper 2 4.551
 	minables lead 2 6.319
+	hazard "Wherna slowing" 60
 	object
 		sprite star/b3
 		period 10
@@ -536,16 +541,18 @@ system Ilkakanos
 		period 1839.24
 
 system Jurnuli
-	pos 480.718 -1089.55
-	government Uninhabited
+	pos 503.218 -1092.55
+	government Wherna
 	habitable 4500
 	belt 1126 5
 	link Alis
-	link Ilkan
 	link Orinila
+	link Tarnaya
+	link Utasa
 	asteroids "medium metal" 42 1.617
 	asteroids "large metal" 1 1.995
 	minables tungsten 3 1.764
+	hazard "Wherna slowing" 60
 	object
 		sprite star/k-supergiant
 		period 10
@@ -573,7 +580,7 @@ system Jurnuli
 			sprite planet/dust3-b
 			distance 371
 			period 270.123
-	object
+	object Cardan
 		sprite planet/redias
 		distance 6031.5
 		period 2793.134
@@ -583,11 +590,11 @@ system Jurnuli
 		period 6628.481
 
 system Ilkan
-	pos 444.718 -1033.55
+	pos 453.718 -1032.05
 	government Wherna
 	habitable 8400
 	belt 1501 9
-	link Jurnuli
+	link Tarnaya
 	link Werantas
 	asteroids "small rock" 32 3.528
 	asteroids "medium rock" 29 2.1
@@ -652,7 +659,7 @@ system Ilkan
 		period 3160.43
 
 system Tilbithia
-	pos 651.718 -1015.55
+	pos 654.718 -1027.55
 	government Wherna
 	habitable 5053.712
 	belt 1343 3
@@ -698,12 +705,13 @@ system Tilbithia
 		period 1446.473
 
 system Unili
-	pos 609.718 -1115.55
+	pos 597.718 -1105.05
 	government Wherna
 	habitable 2560.395
 	belt 1556 9
 	link Ilkakanos
 	link Orinila
+	link Utasa
 	asteroids "large metal" 1 3.265
 	object
 		sprite star/b-dwarf
@@ -743,3 +751,109 @@ system Unili
 		distance 3613
 		period 1716.755
 
+system Tarnaya
+	pos 457.718 -1072.05
+	government Uninhabited
+	habitable 33450
+	belt 1291 6
+	belt 2424
+	link Alis
+	link Ilkan
+	link Jurnuli
+	asteroids "small rock" 3 1.836
+	asteroids "medium rock" 6 1.505
+	asteroids "large rock" 3 1.454
+	asteroids "small metal" 13 2.423
+	asteroids "medium metal" 37 1.326
+	asteroids "large metal" 30 1.734
+	minables uranium 2 2.47
+	minables copper 3 3.255
+	minables iron 5 2.386
+	hazard "Wherna slowing" 60
+	object
+		sprite star/o-supergiant
+		period 10
+	object
+		sprite star/m-supergiant
+		distance 820.239
+		period 38.099
+	object
+		sprite planet/cloud4
+		distance 1959.552
+		period 136.704
+		object
+			sprite "planet/asteroid base"
+			distance 193
+			period 70.17
+	object
+		sprite planet/gas17-b
+		distance 2495
+		period 272.564
+	object
+		sprite planet/desert4
+		distance 2834
+		period 329.96
+	object
+		sprite planet/aviskir
+		distance 5032
+		period 780.68
+
+system Utasa
+	pos 543.718 -1118.05
+	government Wherna
+	habitable 6075
+	belt 1844
+	link Jurnuli
+	link Unili
+	asteroids "medium rock" 61 6.88
+	asteroids "large rock" 2 6.88
+	asteroids "medium metal" 4 5.216
+	asteroids "large metal" 4 4.385
+	minables lead 2 7.629
+	object
+		sprite star/g-supergiant
+		period 10
+	object
+		sprite planet/rock9-b
+		distance 740
+		period 103.308
+	object
+		sprite planet/rock15
+		distance 1375
+		period 261.662
+	object
+		sprite planet/uranus
+		distance 2429
+		period 614.367
+		object
+			sprite planet/dust7
+			distance 238
+			period 138.793
+		object Disna
+			sprite planet/rock17
+			distance 393
+			period 479.825
+	object
+		sprite planet/gas15
+		distance 3789
+		period 1196.944
+		object
+			sprite planet/dust4-b
+			distance 235
+			period 112.042
+	object
+		sprite planet/gas1
+		distance 6175
+		period 2490.246
+		object
+			sprite planet/rock14-b
+			distance 501
+			period 293.477
+	object
+		sprite planet/gas10-hot
+		distance 15907
+		period 10296.017
+		object
+			sprite planet/miranda
+			distance 231
+			period 166.085

@@ -1,0 +1,8 @@
+hazard "Wherna slowing"
+	strength 10 90
+	weapon
+		"ion damage" 5
+		"hit force" 45
+		"slowing damage" 10
+		"target effect" "flamethrower hit" 1
+
