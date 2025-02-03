@@ -12,7 +12,7 @@ outfit "Ruckaos Steering"
 	thumbnail "outfit/small ion steering"
 	"outfit space" -25
 	"engine capacity" -25
-	"turn" 190
+	"turn" 65
 	"turning energy" 6.6
 	"turning heat" 0.4
 	"steering flare sprite" effect/ruckaos/huge
@@ -27,7 +27,7 @@ outfit "Ruckaos Thruster"
 	"mass" 1
 	"outfit space" -25
 	"engine capacity" -25
-	"thrust" 15
+	"thrust" 65
 	"thrusting energy" 0.7
 	"thrusting heat" 0.4
 	"flare sprite" effect/ruckaos/huge
@@ -42,7 +42,7 @@ outfit "Ruckaos Reverse Thruster"
 	"mass" 1
 	"outfit space" -25
 	"engine capacity" -25
-	"reverse thrust" 15
+	"reverse thrust" 65
 	"reverse thrusting energy" 0.7
 	"reverse thrusting heat" 0.4
 	"flare sprite" effect/ruckaos/huge
@@ -75,7 +75,7 @@ outfit "Runuisa Steering"
 	"mass" 0.5
 	"outfit space" -15
 	"engine capacity" -15
-	"turn" 10
+	"turn" 45
 	"turning energy" 6.6
 	"turning heat" 17.5
 	"steering flare sprite" effect/runuisa/small
@@ -89,7 +89,7 @@ outfit "Runuisa Thruster"
 	"mass" 0.5
 	"outfit space" -15
 	"engine capacity" -15
-	"thrust" 10
+	"thrust" 45
 	"thrusting energy" 0.7
 	"thrusting heat" 0.4
 	"flare sprite" effect/runuisa/small
@@ -103,7 +103,7 @@ outfit "Runuisa Reverse Thruster"
 	"mass" 0.5
 	"outfit space" -15
 	"engine capacity" -15
-	"reverse thrust" 10
+	"reverse thrust" 45
 	"reverse thrusting energy" 0.7
 	"reverse thrusting heat" 0.4
 	"flare sprite" effect/runuisa/small

@@ -552,7 +552,6 @@ system Jurnuli
 	asteroids "medium metal" 42 1.617
 	asteroids "large metal" 1 1.995
 	minables tungsten 3 1.764
-	hazard "Wherna slowing" 60
 	object
 		sprite star/k-supergiant
 		period 10
@@ -564,7 +563,7 @@ system Jurnuli
 		sprite planet/neptune
 		distance 1680
 		period 410.599
-	object
+	object Cardan
 		sprite planet/aviskir
 		distance 3059
 		period 1008.842
@@ -580,7 +579,7 @@ system Jurnuli
 			sprite planet/dust3-b
 			distance 371
 			period 270.123
-	object Cardan
+	object
 		sprite planet/redias
 		distance 6031.5
 		period 2793.134

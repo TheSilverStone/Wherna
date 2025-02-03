@@ -55,11 +55,11 @@ outfit "Kilrunis Blaster"
 	weapon
 		sprite "projectile/k blaster"
 		sound "energy blaster"
-		"inaccuracy" 10
+		"inaccuracy" 4
 		"velocity" 12
 		"lifetime" 56
 		"reload" 20
 		"firing energy" 10
-		"hull damage" 3
+		"hull damage" 10
 		"piercing" 1
 	description "The Kilrunis Blaster is the weakest weapon in Wherna space. It is only used by those who can't afford anything better, because it is absolutely terrible."

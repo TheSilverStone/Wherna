@@ -61,7 +61,6 @@ ship "Retardi"
 		"outfit space" 500
 		"weapon capacity" 175
 		"hull repair" 300
-		"engine capacity" 100
 		"engine capacity" 80
 		weapon
 			"blast radius" 300
@@ -91,3 +90,48 @@ ship "Retardi"
 	explode "medium explosion" 25
 	explode "large explosion" 10
 	"final explode" "final explosion large"
+
+ship "Lasini"
+	sprite "ship/sparrow"
+	thumbnail "thumbnail/sparrow"
+	attributes
+	attributes
+		category "Interceptor"
+		"cost" 47500
+		"shields" 500
+		"hull" 230
+		"required crew" 1
+		"bunks" 6
+		"heat dissipation" .4
+		"fuel capacity" 300
+		"energy capacity" 1200
+		"cargo space" 10
+		"outfit space" 85
+		"weapon capacity" 75
+		"hull repair" 30
+		"engine capacity" 100
+		"engine capacity" 80
+		weapon
+			"blast radius" 300
+			"shield damage" 600
+			"hull damage" 300
+			"hit force" 900
+	outfits
+		"Kilrunis Blaster"
+
+		"Runuisa Energy Regenerator"
+		"Runuisa Shield Regenerator"
+		"Runuisa cooling"
+
+		"Runuisa Steering"
+		"Runuisa Thruster"
+		"Hyperdrive"
+		
+	engine 0 0
+	gun 0 0 "Kilrunis Blaster"
+	leak "leak" 50 50
+	leak "flame" 50 80
+	leak "big leak" 90 30
+	explode "tiny explosion" 15
+	explode "medium explosion" 20
+	"final explode" "final explosion tiny"
