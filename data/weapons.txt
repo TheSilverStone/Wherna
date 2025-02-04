@@ -19,7 +19,6 @@ outfit "Inruni Laser"
 		"firing hull" 3
 		"piercing" 1
 		"hull damage" 5
-		"fuel damage" 25
 		"ion damage" 12
 	description "The Inruni Laser is a only was only for testing weapons, yet the engineer who designed it obviously knew what he was doing. Mostly used by warship captains, it can't be too powerful at best, for the Wherna only allow military to access the best of their weapons."
 

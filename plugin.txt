@@ -1,0 +1,8 @@
+name "Wherna"
+about "This is a plugin that adds an alien species called the Wherna that live between the Incipias and the Gegno."
+about "During the currently incomplete storyline they will try to have a message sent to the quart and have a war with them. Tear 1.4"
+about "Any help would be greatly appreciated!"
+authors
+	TheSilverStone
+dependencies
+	"game version" 0.10.7

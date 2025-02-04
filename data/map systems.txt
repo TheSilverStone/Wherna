@@ -14,6 +14,7 @@ system Werantas
 	asteroids "medium metal" 12 2.834
 	asteroids "large metal" 6 2.587
 	minables titanium 2 2.257
+	fleet "Small Wherna" 200
 	object
 		sprite star/o0
 		distance 34
@@ -62,6 +63,7 @@ system Polasdon
 	asteroids "medium metal" 12 1.573
 	asteroids "large metal" 1 1.602
 	minables silicon 8 4.046
+	fleet "Small Wherna" 200
 	object
 		sprite star/f3
 		distance 111.104
@@ -128,6 +130,7 @@ system Alis
 	link Tarnaya
 	link Werantas
 	asteroids "large metal" 1 3.584
+	fleet "Small Wherna" 200
 	object
 		sprite star/m-giant
 		period 10
@@ -187,6 +190,7 @@ system Hulaina
 	asteroids "large rock" 1 2.243
 	asteroids "large metal" 1 2.369
 	hazard "Wherna slowing" 60
+	fleet "Small Wherna" 200
 	object
 		sprite star/k5-old
 		distance 164
@@ -246,6 +250,7 @@ system Orilasa
 	asteroids "large metal" 3 0.88
 	minables iron 32 1.527
 	hazard "Wherna slowing" 60
+	fleet "Small Wherna" 200
 	object
 		sprite star/b0
 		period 10
@@ -297,6 +302,7 @@ system Dornasdadon
 	minables uranium 1 8.657
 	minables lead 3 7.186
 	minables titanium 3 7.506
+	fleet "Small Wherna" 200
 	object
 		sprite star/m4
 		period 10
@@ -352,6 +358,7 @@ system Ranorackaos
 	asteroids "medium metal" 46 3.257
 	asteroids "large metal" 23 2.926
 	minables copper 8 5.685
+	fleet "Small Wherna" 200
 	object
 		sprite star/g5-old
 		period 10
@@ -417,6 +424,7 @@ system Orinila
 	asteroids "large metal" 2 2.266
 	minables aluminum 1 4.906
 	hazard "Wherna slowing" 60
+	fleet "Small Wherna" 200
 	object
 		sprite star/a-supergiant
 		distance 541.5
@@ -504,6 +512,7 @@ system Ilkakanos
 	minables copper 2 4.551
 	minables lead 2 6.319
 	hazard "Wherna slowing" 60
+	fleet "Small Wherna" 200
 	object
 		sprite star/b3
 		period 10
@@ -552,6 +561,7 @@ system Jurnuli
 	asteroids "medium metal" 42 1.617
 	asteroids "large metal" 1 1.995
 	minables tungsten 3 1.764
+	fleet "Small Wherna" 200
 	object
 		sprite star/k-supergiant
 		period 10
@@ -603,6 +613,7 @@ system Ilkan
 	asteroids "large metal" 3 2.268
 	minables iron 14 3.687
 	minables lead 24 3.489
+	fleet "Small Wherna" 200
 	object
 		sprite star/f-supergiant
 		distance 310.75
@@ -669,6 +680,7 @@ system Tilbithia
 	asteroids "medium metal" 4 4.816
 	asteroids "large metal" 2 4.704
 	minables titanium 3 7.007
+	fleet "Small Wherna" 200
 	object
 		sprite star/k-supergiant
 		distance 400
@@ -712,6 +724,7 @@ system Unili
 	link Orinila
 	link Utasa
 	asteroids "large metal" 1 3.265
+	fleet "Small Wherna" 200
 	object
 		sprite star/b-dwarf
 		distance 113.76
@@ -769,6 +782,7 @@ system Tarnaya
 	minables copper 3 3.255
 	minables iron 5 2.386
 	hazard "Wherna slowing" 60
+	fleet "Small Wherna" 200
 	object
 		sprite star/o-supergiant
 		period 10
@@ -809,6 +823,7 @@ system Utasa
 	asteroids "medium metal" 4 5.216
 	asteroids "large metal" 4 4.385
 	minables lead 2 7.629
+	fleet "Small Wherna" 200
 	object
 		sprite star/g-supergiant
 		period 10

@@ -8,7 +8,8 @@ ship "Vornilina"
 		"hull" 4500
 		"required crew" 7
 		"bunks" 10
-		"drag" 3
+		"drag" 0.5
+		"mass" 3
 		"heat dissipation" .4
 		"fuel capacity" 500
 		"cargo space" 125
@@ -26,7 +27,7 @@ ship "Vornilina"
 		"Ruckaos Shield Regenerator"
 		"Ruckaos Energy Regenerator"
 
-		"Ruckaos Steering"
+		"Ruckaos Steering" 2
 		"Ruckaos Thruster"
 		"Ruckaos Reverse Thruster"
 		"Hyperdrive"
@@ -73,7 +74,7 @@ ship "Retardi"
 		"Ruckaos Shield Regenerator"
 		"Ruckaos Energy Regenerator"
 
-		"Ruckaos Steering"
+		"Ruckaos Steering" 2
 		"Ruckaos Thruster"
 		"Ruckaos Reverse Thruster"
 		"Hyperdrive"
@@ -123,7 +124,7 @@ ship "Lasini"
 		"Runuisa Shield Regenerator"
 		"Runuisa cooling"
 
-		"Runuisa Steering"
+		"Runuisa Steering" 2
 		"Runuisa Thruster"
 		"Hyperdrive"
 		
@@ -135,3 +136,4 @@ ship "Lasini"
 	explode "tiny explosion" 15
 	explode "medium explosion" 20
 	"final explode" "final explosion tiny"
+	description "This tiny ship is almost a fighter, and is easily disabled and even killed. However, a swarm of them can quite easily defeat almost and ship set on them, excluding a storage beast which has been sighted in Hulaina."
