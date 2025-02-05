@@ -1,0 +1,155 @@
+system Orlinisa
+	pos 561.718 -970.55
+	government Uninhabited
+	habitable 7000
+	belt 1613 6
+	belt 2500 9
+	link Hulaina
+	link Tekanas
+	link Werantas
+	asteroids "small rock" 55 4.228
+	asteroids "medium rock" 68 4.714
+	asteroids "large rock" 118 2.624
+	asteroids "small metal" 12 4.082
+	asteroids "medium metal" 3 3.548
+	asteroids "large metal" 5 4.034
+	minables lead 5 4.915
+	object
+		sprite star/b0
+		period 10
+	object
+		sprite planet/gas4-hot
+		distance 474
+		period 49.338
+		object
+			sprite planet/ice8-b
+			distance 206
+			period 111.764
+	object
+		sprite planet/desert3-b
+		distance 1194
+		period 197.25
+	object
+		sprite planet/gas13-b
+		distance 1863
+		period 384.441
+	object
+		sprite planet/gateway-frozen
+		distance 3473
+		period 978.516
+		object
+			sprite planet/io
+			distance 223
+			period 125.88
+	object
+		sprite planet/gas17-b
+		distance 4050
+		period 1232.235
+	object
+		sprite planet/gas9
+		distance 5103
+		period 1742.807
+
+system Kona
+	pos 695.718 -1059.05
+	government Uninhabited
+	habitable 7900
+	belt 1551 4
+	link Ilkakanos
+	link Tilbithia
+	asteroids "small rock" 19 3.629
+	asteroids "medium rock" 173 1.928
+	asteroids "large rock" 29 3.326
+	asteroids "medium metal" 3 3.742
+	asteroids "large metal" 1 2.495
+	minables tungsten 17 2.723
+	minables iron 28 3.577
+	minables lead 54 3.552
+	object
+		sprite star/a-giant
+		period 10
+	object
+		sprite planet/desert9
+		distance 350
+		period 29.468
+	object
+		sprite planet/ice9
+		distance 804
+		period 102.596
+	object
+		sprite planet/desert2
+		distance 1258
+		period 200.802
+	object
+		sprite planet/debris0
+		distance 2624
+		period 604.912
+	object
+		sprite planet/gliese
+		distance 4422
+		period 1323.349
+	object
+		sprite planet/gas7
+		distance 5924
+		period 2051.961
+
+system Tekanas
+	pos 601.718 -948.05
+	government Wherna
+	habitable 33450
+	belt 1047 9
+	belt 2085 3
+	link Hulaina
+	link Orlinisa
+	asteroids "small rock" 37 4.06
+	asteroids "medium rock" 29 7.146
+	asteroids "large rock" 6 7.958
+	asteroids "small metal" 7 5.765
+	asteroids "medium metal" 4 4.304
+	asteroids "large metal" 32 6.821
+	minables silver 3 11.767
+	minables tungsten 8 7.781
+	object
+		sprite star/o-supergiant
+		period 10
+	object Durna
+		sprite planet/venus
+		distance 560
+		period 28.983
+	object
+		sprite planet/jupiter-b
+		distance 1347
+		period 108.122
+		object
+			sprite planet/callisto-b
+			distance 306
+			period 140.088
+		object
+			sprite planet/io-b
+			distance 451
+			period 362.047
+	object
+		sprite planet/gas1
+		distance 3017
+		period 362.431
+		object
+			sprite "planet/rock4"
+			distance 472
+			period 268.368
+		object
+			sprite planet/rock7-b
+			distance 632
+			period 751.601
+	object
+		sprite planet/tethys
+		distance 3862
+		period 524.905
+
+planet Durna
+	landscape land/water13
+	description "Durna is a planet a few systems from any other, and the shipyard here doesn't have any other ship then the Lasini, which only has one jump, and therefore is unable to get to any system except Hulaina or Orlinisa. Therefore, the Wherna here have to depend on the supply fleets that come here every few months, as Durna's soil isn't fertile at all. Frequent raids from the Rathalan mean that the food is often short."
+	spaceport "Many of the Wherna in the spaceport are lean, sullen and eye you meanly. You would not want to find yourself in a position like this one if you ever forget your laser rifle."
+	government Wherna
+	"required reputation" 5
+	bribe 0
+

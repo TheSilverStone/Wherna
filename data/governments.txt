@@ -8,6 +8,7 @@ government Wherna
 		board 0.5
 		capture 10
 		destroy 20
+	fine 0
 
 government Rathalan
 	swizzle 23
@@ -22,5 +23,5 @@ government Rathalan
 		board 0.8
 		capture 5
 		destroy 5
-	fine 0
+	fine 1540000
 

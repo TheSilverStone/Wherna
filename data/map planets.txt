@@ -97,3 +97,12 @@ planet Cardan
 	government Wherna
 	shipyard "Wherna Advanced"
 	outfitter "Wherna Advanced"
+
+planet Durna
+	landscape land/water13
+	description "Durna is a planet a few systems from any other, and the shipyard here doesn't have any other ship then the Lasini, which only has one jump, and therefore is unable to get to any system except Hulaina or Orlinisa. Therefore, the Wherna here have to depend on the supply fleets that come here every few months, as Durna's soil isn't fertile at all. Frequent raids from the Rathalan mean that the food is often short."
+	spaceport "Many of the Wherna in the spaceport are lean, sullen and eye you meanly. You would not want to find yourself in a position like this one if you ever forget your laser rifle."
+	government Wherna
+	"required reputation" 5
+	bribe 0
+	shipyard "Wherna Basic"
