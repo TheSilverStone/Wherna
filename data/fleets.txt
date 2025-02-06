@@ -3,9 +3,9 @@ fleet "Small Wherna"
 	names "Wherna Ships"
 	commodities Food
 	personality
-		heroic
-		nemesis
-		marked
+#		heroic
+#		nemesis
+#		marked
 	variant
 		Lasini 10
 		Retardi 1

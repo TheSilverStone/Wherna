@@ -61,4 +61,105 @@ outfit "Kilrunis Blaster"
 		"firing energy" 10
 		"hull damage" 10
 		"piercing" 1
-	description "The Kilrunis Blaster is the weakest weapon in Wherna space. It is only used by those who can't afford anything better, because it is absolutely terrible."
+	description "The Kilrunis Blaster is the weakest weapon in Wherna space. It is only used by those who can't afford anything better, because it is absolutely terrible, other than the fact that it is deadly in large numbers."
+
+outfit "Inruni Missile"
+	category "Ammunition"
+	cost 500
+	thumbnail "outfit/meteor"
+	"mass" .2
+	"meteor capacity" -1
+	description "A Inruni Missile serves as ammunition for the Inruni Missile Launcher. Each missile launcher has its own capacity; you cannot install missiles if you have not first purchased a pod, launcher, or storage to store them in."
+
+outfit "Inruni Missile Box"
+	plural "Inruni Missile Boxes"
+	category "Ammunition"
+	cost 9000
+	thumbnail "outfit/meteor storage"
+	"mass" 2
+	"outfit space" -5
+	"meteor capacity" 15
+	ammo "Inruni Missile"
+	description "The Inruni Missile Box is used to store extra ammunition for Inruni Missile Launchers."
+
+outfit "Inruni Missile Launcher"
+	category "Secondary Weapons"
+	cost 15000
+	thumbnail "outfit/meteor launcher"
+	"mass" 8
+	"outfit space" -14
+	"weapon capacity" -14
+	"gun ports" -1
+	"meteor capacity" 30
+	weapon
+		sprite "projectile/inruni missile"
+			"no repeat"
+			"frame rate" .25
+		sound "meteor"
+		ammo "Inruni Missile"
+		icon "icon/meteor"
+		"fire effect" "inruni fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 5
+		"velocity" 11
+		"lifetime" 350
+		"reload" 80
+		"firing energy" 1
+		"firing heat" 20
+		"acceleration" 1
+		"drag" .1
+		"turn" 1.8
+		"homing" 1
+		"infrared tracking" .65
+		"piercing" 1
+		"hull damage" 260
+		"hit force" 330
+		"missile strength" 6
+	description "The Inruni Missile is the cheapest and simplest homing weapon available in Wherna space. Inruni Missiles are quickly destroyed by anti-missile systems, and their infrared tracking systems have trouble homing in on targets with low heat levels. Nevertheless, their large warheads can spell doom for poorly-defended targets when the missiles are fired in great numbers."
+
+outfit "Inruni Missile Pod"
+	category "Secondary Weapons"
+	cost 5000
+	thumbnail "outfit/meteor pod"
+	"mass" 1
+	"outfit space" -3
+	"weapon capacity" -3
+	"gun ports" -1
+	"meteor capacity" 7
+	weapon
+		sprite "projectile/inruni missile"
+			"no repeat"
+			"frame rate" .25
+		sound "meteor"
+		ammo "Inruni Missile"
+		icon "icon/meteor"
+		"fire effect" "inruni fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 5
+		"velocity" 11
+		"lifetime" 350
+		"reload" 200
+		"burst count" 7
+		"burst reload" 80
+		"firing energy" 1
+		"firing heat" 20
+		"acceleration" 1
+		"drag" .1
+		"turn" 1.8
+		"homing" 1
+		"infrared tracking" .65
+		"piercing" 1
+		"hull damage" 260
+		"hit force" 360
+		"missile strength" 6
+	description "The Inrunir Missile is the cheapest and simplest homing weapon available in Wherna space. Inruni Missiles are quickly destroyed by anti-missile systems, and their infrared tracking systems have trouble homing in on targets with low heat levels. Nevertheless, their large warheads can spell doom for poorly-defended targets when the missiles are fired in great numbers."
+	description "	Pods enable fighters and other light craft to carry small quantities of missiles into battle while retaining enough space for other weapons. Large ships are better off with full-size launchers."
+
+effect "inruni fire"
+	sprite "effect/meteor fire"
+		"no repeat"
+		"frame rate" 30
+	"lifetime" 12
+	"random velocity" 10

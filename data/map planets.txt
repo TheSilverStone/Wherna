@@ -41,7 +41,7 @@ planet Wernoka
 	shipyard "Wherna Advanced"
 
 planet Roknos
-	landscape land/dark storm
+	landscape land/badlands10
 	description "This planet is covered in clouds of mist which do not blow away, but simply hang in the air. The gravity is low enough that if you jumped, you would most likely never come down again. The pressure, also, is unbearable, and the Rathalan's antigravity plates are weak enough that if they landed on any other planet they would be unable to take of again. Roknos was discovered by the Rathalan fleeing the Korath, and they have learned some of their unspeakable techniques, which's evidence is sprawled across Roknos."
 	spaceport "The spaceport has refuse lying about everywhere, the smell is unbearable and weeping of captured Wherna echos through it. The spaceport itself is the only small one in Daroke space, and it only provides landing for close to a hundred Rathalan."
 	government Rathalan
