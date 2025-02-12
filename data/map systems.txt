@@ -193,7 +193,7 @@ system Hulaina
 	asteroids "large rock" 1 2.243
 	asteroids "large metal" 1 2.369
 	fleet "Small Wherna" 500
-	hazard "Wherna slowing"
+	hazard "Wherna slowing" 200
 	object
 		sprite star/k5-old
 		distance 164
@@ -253,7 +253,7 @@ system Orilasa
 	asteroids "large metal" 3 0.88
 	minables iron 32 1.527
 	fleet "Small Wherna" 500
-	hazard "Wherna slowing"
+	hazard "Wherna slowing" 200
 	object
 		sprite star/b0
 		period 10
@@ -281,14 +281,10 @@ system Orilasa
 			sprite planet/rock14
 			distance 348
 			period 169.897
-	object
-		sprite planet/gas1-b
+	object ???
+		sprite planet/wormhole-red
 		distance 4266
 		period 1332.117
-		object
-			sprite planet/rhea
-			distance 468
-			period 314.882
 
 system Dornasdadon
 	pos 398.718 -1132.55
@@ -426,7 +422,6 @@ system Orinila
 	asteroids "large metal" 2 2.266
 	minables aluminum 1 4.906
 	fleet "Small Wherna" 500
-
 	object
 		sprite star/a-supergiant
 		distance 541.5
@@ -515,7 +510,6 @@ system Ilkakanos
 	minables copper 2 4.551
 	minables lead 2 6.319
 	fleet "Small Wherna" 500
-
 	object
 		sprite star/b3
 		period 10
@@ -677,7 +671,7 @@ system Tilbithia
 	habitable 5053.712
 	belt 1343 3
 	link Hulaina
-	link Kona
+	link Ilkakanos
 	link Ranorackaos
 	asteroids "medium rock" 3 4.928
 	asteroids "large rock" 5 3.472
@@ -786,7 +780,6 @@ system Tarnaya
 	minables copper 3 3.255
 	minables iron 5 2.386
 	fleet "Small Wherna" 500
-
 	object
 		sprite star/o-supergiant
 		period 10
@@ -916,7 +909,7 @@ system Tekanas
 		distance 3017
 		period 362.431
 		object
-			sprite "planet/rock4"
+			sprite planet/rock4
 			distance 472
 			period 268.368
 		object
@@ -928,3 +921,44 @@ system Tekanas
 		distance 3862
 		period 524.905
 
+system Cena
+	pos 344.718 365.95
+	government Uninhabited
+	habitable 7900
+	belt 1551 4
+	link Arculus
+	asteroids "small rock" 19 3.629
+	asteroids "medium rock" 173 1.928
+	asteroids "large rock" 29 3.326
+	asteroids "medium metal" 3 3.742
+	asteroids "large metal" 1 2.495
+	minables tungsten 17 2.723
+	minables iron 28 3.577
+	minables lead 54 3.552
+	object
+		sprite star/a-giant
+		period 10
+	object
+		sprite planet/desert9
+		distance 350
+		period 29.468
+	object
+		sprite planet/ice9
+		distance 804
+		period 102.596
+	object
+		sprite planet/desert2
+		distance 1258
+		period 200.802
+	object ???
+		sprite planet/wormhole-red
+		distance 1094
+		period 155.624
+	object
+		sprite planet/gliese
+		distance 4422
+		period 1323.349
+	object
+		sprite planet/gas7
+		distance 5924
+		period 2051.961

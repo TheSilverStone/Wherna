@@ -16,6 +16,15 @@ wormhole oriliasa
 	color "wormholes: Ember Waste"
 	mappable
 
+planet ???
+	wormhole orilcena
+
+wormhole orilcena
+	link Orilasa Cena
+	link Cena Orilasa
+	color "wormholes: Ember Waste"
+	mappable
+
 planet Tsadonless
 	landscape land/forest3
 	description "This is a popular tourist destination, but only because it has many warm springs, heated by deposits of molten gold, and the Wherna have found a way to extract it."
