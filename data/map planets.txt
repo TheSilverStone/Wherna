@@ -11,15 +11,17 @@ planet ???
 	wormhole oriliasa
 
 wormhole oriliasa
+	attributes "requires: quantum keystone"
 	link Hulaina Orilasa
 	link Orilasa Hulaina
 	color "wormholes: Ember Waste"
 	mappable
 
-planet ???
+planet ????
 	wormhole orilcena
 
 wormhole orilcena
+	attributes "requires: quantum keystone"
 	link Orilasa Cena
 	link Cena Orilasa
 	color "wormholes: Ember Waste"

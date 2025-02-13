@@ -1,3 +1,9 @@
+system Gerenus
+	add link Cena
+
+system Nona
+	add link Cena
+
 system Werantas
 	pos 495.218 -986.05
 	government Wherna
@@ -6,8 +12,17 @@ system Werantas
 	belt 2289 6
 	link Alis
 	link Ilkan
-	link Orlinisa
 	link Polasdon
+	trade Clothing 246
+	trade Electronics 678
+	trade Equipment 456
+	trade Food 328
+	trade "Heavy Metals" 924
+	trade Industrial 813
+	trade "Luxury Goods" 957
+	trade Medical 573
+	trade Metal 564
+	trade Plastic 514
 	asteroids "small rock" 84 1.879
 	asteroids "medium rock" 62 2.218
 	asteroids "large rock" 4 2.864
@@ -58,6 +73,16 @@ system Polasdon
 	link Hulaina
 	link Ranorackaos
 	link Werantas
+	trade Clothing 246
+	trade Electronics 678
+	trade Equipment 456
+	trade Food 328
+	trade "Heavy Metals" 924
+	trade Industrial 813
+	trade "Luxury Goods" 957
+	trade Medical 573
+	trade Metal 564
+	trade Plastic 514
 	asteroids "small rock" 2 1.602
 	asteroids "medium rock" 7 2.717
 	asteroids "large rock" 35 2.402
@@ -130,6 +155,16 @@ system Alis
 	link Polasdon
 	link Tarnaya
 	link Werantas
+	trade Clothing 246
+	trade Electronics 678
+	trade Equipment 456
+	trade Food 328
+	trade "Heavy Metals" 924
+	trade Industrial 813
+	trade "Luxury Goods" 957
+	trade Medical 573
+	trade Metal 564
+	trade Plastic 514
 	asteroids "large metal" 1 3.584
 	fleet "Small Wherna" 500
 	object
@@ -185,7 +220,6 @@ system Hulaina
 	government Uninhabited
 	habitable 5680.009
 	belt 1608 4
-	link Orlinisa
 	link Polasdon
 	link Tekanas
 	link Tilbithia
@@ -241,7 +275,7 @@ system Hulaina
 			period 0
 
 system Orilasa
-	pos 410.718 65.45
+	pos 686.644 22.487
 	government Uninhabited
 	habitable 7000
 	belt 1528 10
@@ -265,7 +299,7 @@ system Orilasa
 			sprite planet/rock0-b
 			distance 180
 			period 91.287
-	object ???
+	object ????
 		sprite planet/wormhole-red
 		distance 1394
 		period 248.831
@@ -292,6 +326,16 @@ system Dornasdadon
 	habitable 0
 	belt 1730 9
 	belt 2239 3
+	trade Clothing 246
+	trade Electronics 678
+	trade Equipment 456
+	trade Food 328
+	trade "Heavy Metals" 924
+	trade Industrial 813
+	trade "Luxury Goods" 957
+	trade Medical 573
+	trade Metal 564
+	trade Plastic 514
 	asteroids "small rock" 2 4.29
 	asteroids "medium rock" 4 3.41
 	asteroids "large rock" 5 4.565
@@ -350,6 +394,16 @@ system Ranorackaos
 	link Orinila
 	link Polasdon
 	link Tilbithia
+	trade Clothing 246
+	trade Electronics 678
+	trade Equipment 456
+	trade Food 328
+	trade "Heavy Metals" 924
+	trade Industrial 813
+	trade "Luxury Goods" 957
+	trade Medical 573
+	trade Metal 564
+	trade Plastic 514
 	asteroids "small rock" 4 4.416
 	asteroids "medium rock" 16 2.926
 	asteroids "large rock" 11 4.858
@@ -498,7 +552,6 @@ system Ilkakanos
 	habitable 6300
 	belt 1193 10
 	belt 1995 7
-	link Kona
 	link Ranorackaos
 	link Unili
 	asteroids "small rock" 14 3.003
@@ -555,6 +608,16 @@ system Jurnuli
 	link Orinila
 	link Tarnaya
 	link Utasa
+	trade Clothing 246
+	trade Electronics 678
+	trade Equipment 456
+	trade Food 328
+	trade "Heavy Metals" 924
+	trade Industrial 813
+	trade "Luxury Goods" 957
+	trade Medical 573
+	trade Metal 564
+	trade Plastic 514
 	asteroids "medium metal" 42 1.617
 	asteroids "large metal" 1 1.995
 	minables tungsten 3 1.764
@@ -602,6 +665,16 @@ system Ilkan
 	belt 1501 9
 	link Tarnaya
 	link Werantas
+	trade Clothing 246
+	trade Electronics 678
+	trade Equipment 456
+	trade Food 328
+	trade "Heavy Metals" 924
+	trade Industrial 813
+	trade "Luxury Goods" 957
+	trade Medical 573
+	trade Metal 564
+	trade Plastic 514
 	asteroids "small rock" 32 3.528
 	asteroids "medium rock" 29 2.1
 	asteroids "large rock" 14 3.738
@@ -673,6 +746,16 @@ system Tilbithia
 	link Hulaina
 	link Ilkakanos
 	link Ranorackaos
+	trade Clothing 246
+	trade Electronics 678
+	trade Equipment 456
+	trade Food 328
+	trade "Heavy Metals" 924
+	trade Industrial 813
+	trade "Luxury Goods" 957
+	trade Medical 573
+	trade Metal 564
+	trade Plastic 514
 	asteroids "medium rock" 3 4.928
 	asteroids "large rock" 5 3.472
 	asteroids "medium metal" 4 4.816
@@ -876,7 +959,6 @@ system Tekanas
 	belt 1047 9
 	belt 2085 3
 	link Hulaina
-	link Orlinisa
 	asteroids "small rock" 37 4.06
 	asteroids "medium rock" 29 7.146
 	asteroids "large rock" 6 7.958
@@ -922,11 +1004,12 @@ system Tekanas
 		period 524.905
 
 system Cena
-	pos 344.718 365.95
+	pos 251.718 551.95
 	government Uninhabited
 	habitable 7900
 	belt 1551 4
-	link Arculus
+	link Gerenus
+	link Nona
 	asteroids "small rock" 19 3.629
 	asteroids "medium rock" 173 1.928
 	asteroids "large rock" 29 3.326
@@ -950,7 +1033,7 @@ system Cena
 		sprite planet/desert2
 		distance 1258
 		period 200.802
-	object ???
+	object ????
 		sprite planet/wormhole-red
 		distance 1094
 		period 155.624
@@ -962,3 +1045,4 @@ system Cena
 		sprite planet/gas7
 		distance 5924
 		period 2051.961
+
