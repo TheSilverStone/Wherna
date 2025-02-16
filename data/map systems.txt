@@ -219,6 +219,7 @@ system Hulaina
 	pos 624.718 -992.05
 	government Uninhabited
 	habitable 5680.009
+	haze _menu/haze-red
 	belt 1608 4
 	link Polasdon
 	link Tekanas
@@ -227,7 +228,6 @@ system Hulaina
 	asteroids "large rock" 1 2.243
 	asteroids "large metal" 1 2.369
 	fleet "Small Wherna" 500
-	hazard "Wherna slowing" 200
 	object
 		sprite star/k5-old
 		distance 164
@@ -279,6 +279,7 @@ system Orilasa
 	government Uninhabited
 	habitable 7000
 	belt 1528 10
+	haze _menu/haze-red
 	asteroids "small rock" 2 1.478
 	asteroids "medium rock" 18 0.986
 	asteroids "large rock" 9 1.619
@@ -286,8 +287,6 @@ system Orilasa
 	asteroids "medium metal" 61 1.302
 	asteroids "large metal" 3 0.88
 	minables iron 32 1.527
-	fleet "Small Wherna" 500
-	hazard "Wherna slowing" 200
 	object
 		sprite star/b0
 		period 10
@@ -1008,6 +1007,7 @@ system Cena
 	government Uninhabited
 	habitable 7900
 	belt 1551 4
+	haze _menu/haze-red
 	link Gerenus
 	link Nona
 	asteroids "small rock" 19 3.629

@@ -61,7 +61,7 @@ outfit "Kilrunis Blaster"
 		"firing energy" 10
 		"hull damage" 10
 		"piercing" 1
-	description "The Kilrunis Blaster is the weakest weapon in Wherna space. It is only used by those who can't afford anything better, because it is absolutely terrible, other than the fact that it is deadly in large numbers."
+	description "The Kilrunis Blaster is the one of the weakest weapons in Wherna space. It is only used by those who can't afford anything better, because it is absolutely terrible, other than the fact that it is deadly in large numbers."
 
 outfit "Inruni Missile"
 	category "Ammunition"
@@ -163,3 +163,23 @@ effect "inruni fire"
 		"frame rate" 30
 	"lifetime" 12
 	"random velocity" 10
+
+outfit "Runa Blaster"
+	category Guns
+	plural "Runa Blasters"
+	cost 13700
+	thumbnail "outfit/blaster"
+	"outfit space" -2
+	"mass" 1
+	"gun ports" -1
+	weapon
+		sprite "projectile/k blaster"
+		sound "energy blaster"
+		"inaccuracy" 0.1
+		"velocity" 120
+		"lifetime" 2
+		"reload" 2
+		"firing energy" 2
+		"hull damage" 6
+		"piercing" 1
+	description "The Runa Blaster is the weakest weapon in Wherna space. It is only used by those who can't afford anything better, because it is absolutely terrible, other than the fact that it is deadly in large numbers."

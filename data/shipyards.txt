@@ -2,6 +2,8 @@ shipyard "Wherna Advanced"
 	"Vornilina"
 	"Retardi"
 	"Lasini"
+	"Hurnisia"
 
 shipyard "Wherna Basic"
 	"Lasini"
+	"Hurnisia"

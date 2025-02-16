@@ -149,3 +149,46 @@ outfit "Ruckaos Shield Regenerator"
 	"shield generation" 13.39
 	"shield energy" 4.26
 	description "This regenerator is the one of weakest shield generator in Wherna space, and it is mostly used by fighter pilots, which get to design their own fighters. It studies where the fighters in relation to the mothership, and if it isn't close it regenerates shields."
+
+outfit "Tenasa Steering"
+	category Engines
+	plural "Tenasa steering units"
+	cost 1500000
+	thumbnail "outfit/tiny ion steering"
+	"mass" 0.5
+	"outfit space" -5
+	"engine capacity" -2
+	"turn" 50
+	"turning energy" 0.4
+	"turning heat" 17.5
+	"steering flare sprite" effect/runuisa/small
+		"frame rate" 0.1
+
+outfit "Tenasa Thruster"
+	category Engines
+	plural "Tenasa thrusters"
+	cost 1500000
+	thumbnail "outfit/tiny ion thruster"
+	"mass" 0.5
+	"outfit space" -15
+	"engine capacity" -15
+	"thrust" 50
+	"thrusting energy" 0.7
+	"thrusting heat" 0.4
+	"flare sprite" effect/runuisa/small
+		"frame rate" 0.1
+
+outfit "Tenasa Reverse Thruster"
+	category Engines
+	plural "Tenasa reverse thrusters"
+	cost 1500000
+	thumbnail "outfit/reverse thruster ion"
+	"mass" 0.5
+	"outfit space" -15
+	"engine capacity" -15
+	"reverse thrust" 50
+	"reverse thrusting energy" 0.7
+	"reverse thrusting heat" 0.4
+	"flare sprite" effect/runuisa/small
+		"frame rate" 0.1
+		scale 0.7

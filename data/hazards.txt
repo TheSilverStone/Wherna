@@ -1,5 +1,0 @@
-hazard "Wherna slowing"
-	strength 10 90
-	weapon
-		"ion damage" 35
-		"hit force" 45

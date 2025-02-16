@@ -83,6 +83,10 @@ ship "Retardi"
 	gun 0 0 "Inruni Laser"
 	gun 0 0 "Inruni Laser"
 	gun 0 0 "Inruni Laser"
+	bay Fighter 0 0
+	bay Fighter 0 0
+	bay Fighter 0 0
+	bay Fighter 0 0
 	leak "leak" 50 50
 	leak "flame" 50 80
 	leak "big leak" 90 30
@@ -137,3 +141,95 @@ ship "Lasini"
 	explode "medium explosion" 20
 	"final explode" "final explosion tiny"
 	description "This tiny ship is almost a fighter, and is easily disabled and even killed. However, a swarm of them can quite easily defeat almost and ship set on them, excluding a storage beast which has been sighted in Hulaina."
+
+ship "Template"
+	sprite "ship/"
+	thumbnail "thumbnail/"
+	attributes
+		category ""
+		"cost"
+		"shields"
+		"hull"
+		"required crew"
+		"bunks"
+		"heat dissipation"
+		"fuel capacity"
+		"energy capacity"
+		"cargo space"
+		"outfit space"
+		"weapon capacity"
+		"hull repair"
+		"engine capacity"
+		weapon
+			"blast radius"
+			"shield damage"
+			"hull damage"
+			"hit force"
+	outfits
+		"Inruni "
+
+		"Ru Shield Regenerator"
+		"Ru Energy Regenerator"
+
+		"Ru Steering" 2
+		"Ru Thruster"
+		"Ru Reverse Thruster"
+		"Hyperdrive"
+		
+	engine 0 0
+	gun 0 0 "Inruni "
+	leak "leak" 50 50
+	leak "flame" 50 80
+	leak "big leak" 90 30
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 25
+	explode "large explosion" 10
+	"final explode" "final explosion large"
+	description "This is a template ship to copy and should not be added to the main game or any shipyard."
+
+ship "Hurnisia"
+	sprite "ship/finch"
+	thumbnail "thumbnail/finch"
+	attributes
+		category "Fighter"
+		"cost" 17000
+		"shields" 400
+		"hull" 240
+		"required crew" 1
+		"bunks" 1
+		"heat dissipation" 0.5
+		"fuel capacity" 0
+		"energy capacity" 20
+		"cargo space" 5
+		"outfit space" 30
+		"weapon capacity" 25
+		"hull repair" 0.67
+		"engine capacity" 4
+		weapon
+			"blast radius"
+			"shield damage"
+			"hull damage"
+			"hit force"
+	outfits
+		"Runa Blaster"
+
+		"Runuisa Shield Regenerator"
+		"Runuisa Energy Regenerator"
+
+		"Tenasa Steering" 2
+		"Tenasa Thruster"
+		"Tenasa Reverse Thruster"
+		"Hyperdrive"
+		
+	engine 0 0
+	gun 0 0 "Runa Blaster"
+	leak "leak" 50 50
+	leak "flame" 50 80
+	leak "big leak" 90 30
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 25
+	explode "large explosion" 10
+	"final explode" "final explosion large"
+	description "The Hurnisia is one of the few fighters in Wherna space. It could also be called the worst by many of the fighter pilots who pilot it."
