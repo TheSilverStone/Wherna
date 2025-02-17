@@ -11,7 +11,7 @@ planet ???
 	wormhole oriliasa
 
 wormhole oriliasa
-	attributes "requires: quantum keystone"
+#	attributes "requires: quantum keystone"
 	link Hulaina Orilasa
 	link Orilasa Hulaina
 	color "wormholes: Ember Waste"
@@ -21,9 +21,29 @@ planet ????
 	wormhole orilcena
 
 wormhole orilcena
-	attributes "requires: quantum keystone"
+#	attributes "requires: quantum keystone"
 	link Orilasa Cena
 	link Cena Orilasa
+	color "wormholes: Ember Waste"
+	mappable
+
+planet ?????
+	wormhole kutarna
+
+wormhole kutarna
+#	attributes "requires: quantum keystone"
+	link Tarnaya Kua
+	link Kua Tarnaya
+	color "wormholes: Ember Waste"
+	mappable
+
+planet ??
+	wormhole yurniursa
+
+wormhole yurniursa
+#	attributes "requires: quantum keystone"
+	link Yurnisia Ursasa
+	link Ursasa Yurnisia
 	color "wormholes: Ember Waste"
 	mappable
 
@@ -101,18 +121,27 @@ planet Disna
 	shipyard "Wherna Advanced"
 	outfitter "Wherna Advanced"
 
-planet Cardan
+planet "Cardan"
 	landscape land/desert7
 	description "Cardan is hot, and its many rolling hills of rock can be very confusing to those unaware of the volcanic action beneath. As well as being heated by the huge sun, Cardan is also heated by the lava beneath, providing a broiling planet. The ovens here are made of element that takes heat and intensifies it, providing a burning hot surface."
-	spaceport "The spaceport is one of the few buildings built on solid rock, its sides looking something like a normal building. However, the scale is about ten times larger.
+	spaceport "The spaceport is one of the few buildings built on solid rock, its sides looking something like a normal building. However, the scale is about ten times larger."
 	government Wherna
 	shipyard "Wherna Advanced"
 	outfitter "Wherna Advanced"
 
 planet Durna
 	landscape land/water13
-	description "Durna is a planet a few systems from any other, and the shipyard here doesn't have any other ship then the Lasini, which only has one jump, and therefore is unable to get to any system except Hulaina or Orlinisa. Therefore, the Wherna here have to depend on the supply fleets that come here every few months, as Durna's soil isn't fertile at all. Frequent raids from the Rathalan mean that the food is often short."
+	description "Durna is a planet a few systems from any other, and the shipyard here doesn't have any other ships other then the Lasini, which only has one jump, and the Hurnisia. Therefore its ships are unable to get to any system except Hulaina. Therefore, the Wherna here have to depend on the supply fleets that come here every few months, as Durna's soil isn't fertile at all. Frequent raids from the Rathalan mean that the food is often short."
 	spaceport "Many of the Wherna in the spaceport are lean, sullen and eye you meanly. You would not want to find yourself in a position like this one if you ever forget your laser rifle."
+	government Wherna
+	"required reputation" 5
+	bribe 0
+	shipyard "Wherna Basic"
+
+planet Kacka
+	landscape land/fog1
+	description "The Dorsa are problobly kin to the Rathalan, but their complexion is darker and their planet cleaner. However, though the planet is such, the Dorsa are not. They don't get enough food or water, and therefore have to have survived by bullying other Dorsa smaller that themselves. They eye your laser rifle rather nervously, and in self-defense you always point it as soon as you step off your ship. Many are small from their species, and many of the Dorsa are fighting in the confines of the crowded planet"
+	spaceport "Dirty and always packed, this might have been painted once-but that was long enough ago that nobody remembers what color it was, or where the paint is. Its ceiling is low, and you almost bump your head after getting out of the hanger. Evedantly it was build for the smaller Dorsa instead of humans."
 	government Wherna
 	"required reputation" 5
 	bribe 0

@@ -19,9 +19,25 @@ government Rathalan
 	"attitude toward"
 		Wherna -1000
 	"penalty for"
-		assist 0.5
+		assist -0.5
 		board 0.8
 		capture 5
 		destroy 5
 	fine 1540000
+
+government Dorsa
+	swizzle 23
+	color 65 120 40
+	"player reputation" -1000
+	"crew attack" .43
+	"crew defense" .67
+	"attitude toward"
+		Wherna -1000
+		Rathalan -1000
+	"penalty for"
+		assist -0.7
+		board 0.36
+		capture 4.7
+		destroy 10
+	fine 0
 

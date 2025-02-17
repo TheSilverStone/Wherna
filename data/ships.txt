@@ -9,8 +9,7 @@ ship "Vornilina"
 		"required crew" 7
 		"bunks" 10
 		"drag" 0.5
-		"mass" 3
-		"heat dissipation" .4
+		"heat dissipation" 20
 		"fuel capacity" 500
 		"cargo space" 125
 		"outfit space" 205
@@ -55,7 +54,7 @@ ship "Retardi"
 		"hull" 5000
 		"required crew" 13
 		"bunks" 34
-		"heat dissipation" .4
+		"heat dissipation" 25
 		"fuel capacity" 600
 		"energy capacity" 5600
 		"cargo space" 50
@@ -107,7 +106,7 @@ ship "Lasini"
 		"hull" 230
 		"required crew" 1
 		"bunks" 6
-		"heat dissipation" .4
+		"heat dissipation" 10
 		"fuel capacity" 300
 		"energy capacity" 1200
 		"cargo space" 10
@@ -140,53 +139,53 @@ ship "Lasini"
 	explode "tiny explosion" 15
 	explode "medium explosion" 20
 	"final explode" "final explosion tiny"
-	description "This tiny ship is almost a fighter, and is easily disabled and even killed. However, a swarm of them can quite easily defeat almost and ship set on them, excluding a storage beast which has been sighted in Hulaina."
-
-ship "Template"
-	sprite "ship/"
-	thumbnail "thumbnail/"
-	attributes
-		category ""
-		"cost"
-		"shields"
-		"hull"
-		"required crew"
-		"bunks"
-		"heat dissipation"
-		"fuel capacity"
-		"energy capacity"
-		"cargo space"
-		"outfit space"
-		"weapon capacity"
-		"hull repair"
-		"engine capacity"
-		weapon
-			"blast radius"
-			"shield damage"
-			"hull damage"
-			"hit force"
-	outfits
-		"Inruni "
-
-		"Ru Shield Regenerator"
-		"Ru Energy Regenerator"
-
-		"Ru Steering" 2
-		"Ru Thruster"
-		"Ru Reverse Thruster"
-		"Hyperdrive"
-		
-	engine 0 0
-	gun 0 0 "Inruni "
-	leak "leak" 50 50
-	leak "flame" 50 80
-	leak "big leak" 90 30
-	explode "tiny explosion" 10
-	explode "small explosion" 25
-	explode "medium explosion" 25
-	explode "large explosion" 10
-	"final explode" "final explosion large"
-	description "This is a template ship to copy and should not be added to the main game or any shipyard."
+	description "This tiny ship is almost a fighter, and is easily disabled and even killed. However, a swarm of them can quite easily defeat almost and ship set on them, excluding a strange beast which has been sighted in Hulaina."
+#
+#ship "Template"
+#	sprite "ship/"
+#	thumbnail "thumbnail/"
+#	attributes
+#		category ""
+#		"cost"
+#		"shields"
+#		"hull"
+#		"required crew"
+#		"bunks"
+#		"heat dissipation"
+#		"fuel capacity"
+#		"energy capacity"
+#		"cargo space"
+#		"outfit space"
+#		"weapon capacity"
+#		"hull repair"
+#		"engine capacity"
+#		weapon
+#			"blast radius"
+#			"shield damage"
+#			"hull damage"
+#			"hit force"
+#	outfits
+#		"Inruni "
+#
+#		"Ru Shield Regenerator"
+#		"Ru Energy Regenerator"
+#
+#		"Ru Steering" 2
+#		"Ru Thruster"
+#		"Ru Reverse Thruster"
+#		"Hyperdrive"
+#		
+#	engine 0 0
+#	gun 0 0 "Inruni "
+#	leak "leak" 50 50
+#	leak "flame" 50 80
+#	leak "big leak" 90 30
+#	explode "tiny explosion" 10
+#	explode "small explosion" 25
+#	explode "medium explosion" 25
+#	explode "large explosion" 10
+#	"final explode" "final explosion large"
+#	description "This is a template ship to copy and should not be added to the main game or any #shipyard."
 
 ship "Hurnisia"
 	sprite "ship/finch"
@@ -198,7 +197,7 @@ ship "Hurnisia"
 		"hull" 240
 		"required crew" 1
 		"bunks" 1
-		"heat dissipation" 0.5
+		"heat dissipation" 10
 		"fuel capacity" 0
 		"energy capacity" 20
 		"cargo space" 5
@@ -207,15 +206,16 @@ ship "Hurnisia"
 		"hull repair" 0.67
 		"engine capacity" 4
 		weapon
-			"blast radius"
-			"shield damage"
-			"hull damage"
-			"hit force"
+#			"blast radius"
+#			"shield damage"
+#			"hull damage"
+#			"hit force"
 	outfits
 		"Runa Blaster"
 
 		"Runuisa Shield Regenerator"
 		"Runuisa Energy Regenerator"
+		"Runuisa cooling"
 
 		"Tenasa Steering" 2
 		"Tenasa Thruster"

@@ -33,4 +33,4 @@ outfitter "Wherna Advanced"
 	"Tenasa Thruster"
 	"Tenasa Steering"
 	"Tenasa Reverse Thruster"
-	"Runa Blaster
+	"Runa Blaster"

@@ -3,7 +3,6 @@ outfit "Inruni Laser"
 	plural "Inruni Lasers"
 	cost 13700
 	thumbnail "outfit/heavy laser"
-	"mass" 3
 	"outfit space" -75
 	"weapon capacity" 90
 	"gun ports" -1
@@ -27,7 +26,6 @@ outfit "Inruni Blaster"
 	plural "Inruni Blasters"
 	cost 13700
 	thumbnail "outfit/blaster"
-	"mass" 3
 	"outfit space" -13
 	"gun ports" -1
 	weapon
@@ -49,7 +47,6 @@ outfit "Kilrunis Blaster"
 	cost 13700
 	thumbnail "outfit/blaster"
 	"outfit space" -10
-	"mass" 3
 	"gun ports" -1
 	weapon
 		sprite "projectile/k blaster"
@@ -67,7 +64,6 @@ outfit "Inruni Missile"
 	category "Ammunition"
 	cost 500
 	thumbnail "outfit/meteor"
-	"mass" .2
 	"meteor capacity" -1
 	description "A Inruni Missile serves as ammunition for the Inruni Missile Launcher. Each missile launcher has its own capacity; you cannot install missiles if you have not first purchased a pod, launcher, or storage to store them in."
 
@@ -76,7 +72,6 @@ outfit "Inruni Missile Box"
 	category "Ammunition"
 	cost 9000
 	thumbnail "outfit/meteor storage"
-	"mass" 2
 	"outfit space" -5
 	"meteor capacity" 15
 	ammo "Inruni Missile"
@@ -86,7 +81,6 @@ outfit "Inruni Missile Launcher"
 	category "Secondary Weapons"
 	cost 15000
 	thumbnail "outfit/meteor launcher"
-	"mass" 8
 	"outfit space" -14
 	"weapon capacity" -14
 	"gun ports" -1
@@ -122,7 +116,6 @@ outfit "Inruni Missile Pod"
 	category "Secondary Weapons"
 	cost 5000
 	thumbnail "outfit/meteor pod"
-	"mass" 1
 	"outfit space" -3
 	"weapon capacity" -3
 	"gun ports" -1
@@ -170,7 +163,6 @@ outfit "Runa Blaster"
 	cost 13700
 	thumbnail "outfit/blaster"
 	"outfit space" -2
-	"mass" 1
 	"gun ports" -1
 	weapon
 		sprite "projectile/k blaster"

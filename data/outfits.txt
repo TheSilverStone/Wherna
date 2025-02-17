@@ -24,7 +24,6 @@ outfit "Ruckaos Thruster"
 	plural "Ruckaos thrusters"
 	cost 1500000
 	thumbnail "outfit/small ion thruster"
-	"mass" 1
 	"outfit space" -25
 	"engine capacity" -25
 	"thrust" 240
@@ -39,7 +38,6 @@ outfit "Ruckaos Reverse Thruster"
 	plural "Ruckaos thrusters"
 	cost 1500000
 	thumbnail "outfit/reverse thruster ion"
-	"mass" 1
 	"outfit space" -25
 	"engine capacity" -25
 	"reverse thrust" 240
@@ -54,25 +52,22 @@ outfit "Runuisa cooling"
 	plural "Runuisa cooling systems"
 	cost 1905600
 	thumbnail "outfit/cooling ducts"
-	"mass" 10
 	"outfit space" -13
-	"cooling" 25
+	"cooling" 50
 
 outfit "Ruckaos cooling"
 	category Systems
 	plural "Ruckaos cooling systems"
 	cost 3125800
 	thumbnail "outfit/cooling ducts"
-	"mass" 10
 	"outfit space" -23
-	"cooling" 64
+	"cooling" 70
 
 outfit "Runuisa Steering"
 	category Engines
 	plural "Runuisa steering"
 	cost 1500000
 	thumbnail "outfit/tiny ion steering"
-	"mass" 0.5
 	"outfit space" -15
 	"engine capacity" -15
 	"turn" 45
@@ -86,7 +81,6 @@ outfit "Runuisa Thruster"
 	plural "Runuisa thrusters"
 	cost 1500000
 	thumbnail "outfit/tiny ion thruster"
-	"mass" 0.5
 	"outfit space" -15
 	"engine capacity" -15
 	"thrust" 45
@@ -100,7 +94,6 @@ outfit "Runuisa Reverse Thruster"
 	plural "Runuisa thrusters"
 	cost 1500000
 	thumbnail "outfit/reverse thruster ion"
-	"mass" 0.5
 	"outfit space" -15
 	"engine capacity" -15
 	"reverse thrust" 45
@@ -114,7 +107,6 @@ outfit "Runuisa Energy Regenerator"
 	category Power
 	cost 15300
 	thumbnail "outfit/tiny fuel cell"
-	"mass" 4.3
 	"outfit space" -5
 	"energy generation" 13.39
 	description "This regenerator is one of the weakest energy generator in Wherna space, and it is mostly used by fighter pilots, which get to design their own fighters. It studies where the fighters in relation to the mothership, and if it isn't close it regenerates shields."
@@ -124,7 +116,6 @@ outfit "Runuisa Shield Regenerator"
 	plural "Ruckaos Shield Regenerators"
 	cost 15700
 	thumbnail "outfit/tiny shield"
-	"mass" 4.7
 	"outfit space" -5
 	"shield generation" 10.46
 	"shield energy" 3.42
@@ -135,7 +126,6 @@ outfit "Ruckaos Energy Regenerator"
 	plural "Runuisa Energy Regenerators"
 	cost 15300
 	thumbnail "outfit/small fuel cell"
-	"mass" 4.3
 	"outfit space" -9
 	"energy generation" 10.46
 	description "This regenerator is the weakest energy generator in Wherna space, and it is mostly used by fighter pilots, which get to design their own fighters. It studies where the fighters in relation to the mothership, and if it isn't close it regenerates shields."
@@ -144,7 +134,6 @@ outfit "Ruckaos Shield Regenerator"
 	category Systems
 	cost 15700
 	thumbnail "outfit/small shield"
-	"mass" 4.7
 	"outfit space" -9
 	"shield generation" 13.39
 	"shield energy" 4.26
@@ -155,10 +144,9 @@ outfit "Tenasa Steering"
 	plural "Tenasa steering units"
 	cost 1500000
 	thumbnail "outfit/tiny ion steering"
-	"mass" 0.5
 	"outfit space" -5
 	"engine capacity" -2
-	"turn" 50
+	"turn" 2
 	"turning energy" 0.4
 	"turning heat" 17.5
 	"steering flare sprite" effect/runuisa/small
@@ -169,10 +157,10 @@ outfit "Tenasa Thruster"
 	plural "Tenasa thrusters"
 	cost 1500000
 	thumbnail "outfit/tiny ion thruster"
-	"mass" 0.5
+
 	"outfit space" -15
 	"engine capacity" -15
-	"thrust" 50
+	"thrust" 2
 	"thrusting energy" 0.7
 	"thrusting heat" 0.4
 	"flare sprite" effect/runuisa/small
@@ -183,10 +171,9 @@ outfit "Tenasa Reverse Thruster"
 	plural "Tenasa reverse thrusters"
 	cost 1500000
 	thumbnail "outfit/reverse thruster ion"
-	"mass" 0.5
 	"outfit space" -15
 	"engine capacity" -15
-	"reverse thrust" 50
+	"reverse thrust" 2
 	"reverse thrusting energy" 0.7
 	"reverse thrusting heat" 0.4
 	"flare sprite" effect/runuisa/small

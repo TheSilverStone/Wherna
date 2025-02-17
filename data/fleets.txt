@@ -1,6 +1,6 @@
 fleet "Small Wherna"
 	government Wherna
-	names "Wherna Ships"
+#	names "Wherna Ships"
 	commodities Food
 	personality
 #		heroic
