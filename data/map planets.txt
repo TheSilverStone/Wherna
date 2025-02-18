@@ -28,12 +28,12 @@ wormhole orilcena
 	mappable
 
 planet ?????
-	wormhole kutarna
+	wormhole kuatua
 
-wormhole kutarna
+wormhole kuatua
 #	attributes "requires: quantum keystone"
-	link Tarnaya Kua
-	link Kua Tarnaya
+	link Tua Kua
+	link Kua Tua
 	color "wormholes: Ember Waste"
 	mappable
 
@@ -140,9 +140,7 @@ planet Durna
 
 planet Kacka
 	landscape land/fog1
-	description "The Dorsa are problobly kin to the Rathalan, but their complexion is darker and their planet cleaner. However, though the planet is such, the Dorsa are not. They don't get enough food or water, and therefore have to have survived by bullying other Dorsa smaller that themselves. They eye your laser rifle rather nervously, and in self-defense you always point it as soon as you step off your ship. Many are small from their species, and many of the Dorsa are fighting in the confines of the crowded planet"
-	spaceport "Dirty and always packed, this might have been painted once-but that was long enough ago that nobody remembers what color it was, or where the paint is. Its ceiling is low, and you almost bump your head after getting out of the hanger. Evedantly it was build for the smaller Dorsa instead of humans."
-	government Wherna
-	"required reputation" 5
+	description "The Dorsa are problobly kin to the Rathalan, but their complexion is darker and their planet cleaner. However, though the planet is such, the Dorsa are not. They don't get enough food or water, and therefore have to have survived by bullying other Dorsa smaller that themselves. They eye your laser rifle rather nervously, and in self-defense you always point it as soon as you step off your ship. Many are small from their species, and many of the Dorsa are fighting in the confines of the crowded planet."
+	spaceport "Dirty and always packed, this might have been painted once-but that was long enough ago that nobody remembers what color it was, or where the paint is. Its ceiling is low, and you almost bump your head after getting out of the hanger. Evidently it was build for the smaller Dorsa instead of humans."
+	government Dorsa
 	bribe 0
-	shipyard "Wherna Basic"

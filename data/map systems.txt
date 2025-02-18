@@ -13,6 +13,13 @@ system Werantas
 	link Alis
 	link Ilkan
 	link Polasdon
+	asteroids "small rock" 84 1.879
+	asteroids "medium rock" 62 2.218
+	asteroids "large rock" 4 2.864
+	asteroids "small metal" 15 1.694
+	asteroids "medium metal" 12 2.834
+	asteroids "large metal" 6 2.587
+	minables titanium 2 2.257
 	trade Clothing 246
 	trade Electronics 678
 	trade Equipment 456
@@ -23,13 +30,6 @@ system Werantas
 	trade Medical 573
 	trade Metal 564
 	trade Plastic 514
-	asteroids "small rock" 84 1.879
-	asteroids "medium rock" 62 2.218
-	asteroids "large rock" 4 2.864
-	asteroids "small metal" 15 1.694
-	asteroids "medium metal" 12 2.834
-	asteroids "large metal" 6 2.587
-	minables titanium 2 2.257
 	fleet "Small Wherna" 300
 	object
 		sprite star/o0
@@ -73,6 +73,12 @@ system Polasdon
 	link Hulaina
 	link Ranorackaos
 	link Werantas
+	asteroids "small rock" 2 1.602
+	asteroids "medium rock" 7 2.717
+	asteroids "large rock" 35 2.402
+	asteroids "medium metal" 12 1.573
+	asteroids "large metal" 1 1.602
+	minables silicon 8 4.046
 	trade Clothing 246
 	trade Electronics 678
 	trade Equipment 456
@@ -83,12 +89,6 @@ system Polasdon
 	trade Medical 573
 	trade Metal 564
 	trade Plastic 514
-	asteroids "small rock" 2 1.602
-	asteroids "medium rock" 7 2.717
-	asteroids "large rock" 35 2.402
-	asteroids "medium metal" 12 1.573
-	asteroids "large metal" 1 1.602
-	minables silicon 8 4.046
 	fleet "Small Wherna" 500
 	object
 		sprite star/f3
@@ -155,6 +155,7 @@ system Alis
 	link Polasdon
 	link Tarnaya
 	link Werantas
+	asteroids "large metal" 1 3.584
 	trade Clothing 246
 	trade Electronics 678
 	trade Equipment 456
@@ -165,7 +166,6 @@ system Alis
 	trade Medical 573
 	trade Metal 564
 	trade Plastic 514
-	asteroids "large metal" 1 3.584
 	fleet "Small Wherna" 500
 	object
 		sprite star/m-giant
@@ -219,8 +219,8 @@ system Hulaina
 	pos 624.718 -992.05
 	government Uninhabited
 	habitable 5680.009
-	haze _menu/haze-red
 	belt 1608 4
+	haze _menu/haze-red
 	link Polasdon
 	link Tekanas
 	link Tilbithia
@@ -319,12 +319,22 @@ system Orilasa
 		distance 4266
 		period 1332.117
 
-system Dornasdadon
+system Dorsadon
 	pos 398.718 -1132.55
 	government Rathalan
 	habitable 0
 	belt 1730 9
 	belt 2239 3
+	link Tua
+	asteroids "small rock" 2 4.29
+	asteroids "medium rock" 4 3.41
+	asteroids "large rock" 5 4.565
+	asteroids "small metal" 5 3.575
+	asteroids "medium metal" 2 4.84
+	asteroids "large metal" 7 5.5
+	minables uranium 1 8.657
+	minables lead 3 7.186
+	minables titanium 3 7.506
 	trade Clothing 246
 	trade Electronics 678
 	trade Equipment 456
@@ -335,15 +345,6 @@ system Dornasdadon
 	trade Medical 573
 	trade Metal 564
 	trade Plastic 514
-	asteroids "small rock" 2 4.29
-	asteroids "medium rock" 4 3.41
-	asteroids "large rock" 5 4.565
-	asteroids "small metal" 5 3.575
-	asteroids "medium metal" 2 4.84
-	asteroids "large metal" 7 5.5
-	minables uranium 1 8.657
-	minables lead 3 7.186
-	minables titanium 3 7.506
 	object
 		sprite star/m4
 		period 10
@@ -375,12 +376,12 @@ system Dornasdadon
 		sprite planet/gas10-hot
 		distance 9849
 		object
-			sprite planet/dust1
-			distance 246
+			sprite planet/fog0
+			distance 285.016
 			period 120
 		object
 			sprite planet/ice0
-			distance 407
+			distance 493.342
 			period 310.379
 
 system Ranorackaos
@@ -393,6 +394,12 @@ system Ranorackaos
 	link Orinila
 	link Polasdon
 	link Tilbithia
+	asteroids "small rock" 4 4.416
+	asteroids "medium rock" 16 2.926
+	asteroids "large rock" 11 4.858
+	asteroids "medium metal" 46 3.257
+	asteroids "large metal" 23 2.926
+	minables copper 8 5.685
 	trade Clothing 246
 	trade Electronics 678
 	trade Equipment 456
@@ -403,12 +410,6 @@ system Ranorackaos
 	trade Medical 573
 	trade Metal 564
 	trade Plastic 514
-	asteroids "small rock" 4 4.416
-	asteroids "medium rock" 16 2.926
-	asteroids "large rock" 11 4.858
-	asteroids "medium metal" 46 3.257
-	asteroids "large metal" 23 2.926
-	minables copper 8 5.685
 	fleet "Small Wherna" 500
 	object
 		sprite star/g5-old
@@ -607,6 +608,9 @@ system Jurnuli
 	link Orinila
 	link Tarnaya
 	link Utasa
+	asteroids "medium metal" 42 1.617
+	asteroids "large metal" 1 1.995
+	minables tungsten 3 1.764
 	trade Clothing 246
 	trade Electronics 678
 	trade Equipment 456
@@ -617,9 +621,6 @@ system Jurnuli
 	trade Medical 573
 	trade Metal 564
 	trade Plastic 514
-	asteroids "medium metal" 42 1.617
-	asteroids "large metal" 1 1.995
-	minables tungsten 3 1.764
 	fleet "Small Wherna" 500
 	object
 		sprite star/k-supergiant
@@ -664,6 +665,14 @@ system Ilkan
 	belt 1501 9
 	link Tarnaya
 	link Werantas
+	asteroids "small rock" 32 3.528
+	asteroids "medium rock" 29 2.1
+	asteroids "large rock" 14 3.738
+	asteroids "small metal" 2 2.478
+	asteroids "medium metal" 20 3.78
+	asteroids "large metal" 3 2.268
+	minables iron 14 3.687
+	minables lead 24 3.489
 	trade Clothing 246
 	trade Electronics 678
 	trade Equipment 456
@@ -674,14 +683,6 @@ system Ilkan
 	trade Medical 573
 	trade Metal 564
 	trade Plastic 514
-	asteroids "small rock" 32 3.528
-	asteroids "medium rock" 29 2.1
-	asteroids "large rock" 14 3.738
-	asteroids "small metal" 2 2.478
-	asteroids "medium metal" 20 3.78
-	asteroids "large metal" 3 2.268
-	minables iron 14 3.687
-	minables lead 24 3.489
 	fleet "Small Wherna" 500
 	object
 		sprite star/f-supergiant
@@ -745,6 +746,11 @@ system Tilbithia
 	link Hulaina
 	link Ilkakanos
 	link Ranorackaos
+	asteroids "medium rock" 3 4.928
+	asteroids "large rock" 5 3.472
+	asteroids "medium metal" 4 4.816
+	asteroids "large metal" 2 4.704
+	minables titanium 3 7.007
 	trade Clothing 246
 	trade Electronics 678
 	trade Equipment 456
@@ -755,11 +761,6 @@ system Tilbithia
 	trade Medical 573
 	trade Metal 564
 	trade Plastic 514
-	asteroids "medium rock" 3 4.928
-	asteroids "large rock" 5 3.472
-	asteroids "medium metal" 4 4.816
-	asteroids "large metal" 2 4.704
-	minables titanium 3 7.007
 	fleet "Small Wherna" 500
 	object
 		sprite star/k-supergiant
@@ -1043,7 +1044,7 @@ system Cena
 		period 2051.961
 
 system Ornikasa
-	pos 641.755 -1221.309
+	pos 644.088 -1238.31
 	government Dorsa
 	habitable 5000
 	belt 1825 7
@@ -1083,7 +1084,7 @@ system Ornikasa
 			period 202.34
 
 system Yurnisia
-	pos 630.829 -1241.272
+	pos 655.162 -1273.27
 	government Uninhabited
 	habitable 8400
 	belt 1205 5
@@ -1158,7 +1159,7 @@ system Yurnisia
 			period 468.234
 
 system Usin
-	pos 663.977 -1244.939
+	pos 710.31 -1254.94
 	government Uninhabited
 	habitable 3650
 	belt 1543 4
@@ -1221,22 +1222,18 @@ system Ursasa
 			sprite planet/tethys
 			distance 182
 			period 151.217
-	object ??
-		sprite planet/wormhole-red
-		distance 1361
-		period 268.382
 	object
 		sprite planet/desert1-b
 		distance 1741
 		period 388.297
-	object
-		sprite planet/gas5
+	object ??
+		sprite planet/wormhole-red
 		distance 2964
 		period 862.548
-		object
-			sprite planet/io-b
-			distance 302
-			period 198.386
+	object
+		sprite planet/io-b
+		distance 302
+		period 198.386
 	object
 		sprite planet/gas10
 		distance 6008
@@ -1358,4 +1355,70 @@ system Kua
 			sprite planet/oberon-b
 			distance 288
 			period 301.011
+
+system Tua
+	pos 391.051 -1166.217
+	government Uninhabited
+	habitable 8400
+	belt 1893 3
+	belt 2211 9
+	link Dorsadon
+	asteroids "small rock" 132 3.024
+	asteroids "medium rock" 17 3.84
+	asteroids "large rock" 72 4.752
+	asteroids "medium metal" 1 3.984
+	asteroids "large metal" 19 2.928
+	minables iron 5 4.568
+	minables aluminum 6 6.002
+	object
+		sprite star/f-supergiant
+		period 10
+	object
+		sprite planet/forest12
+		distance 1040
+		period 146.376
+		object
+			sprite planet/dust4-b
+			distance 219
+			period 100.796
+		object
+			sprite planet/ice0
+			distance 360
+			period 258.199
+	object
+		sprite planet/gas10
+		distance 2315
+		period 486.124
+		object
+			sprite planet/rock7-b
+			distance 237
+			period 172.597
+		object
+			sprite planet/ice8
+			distance 393
+			period 294.503
+	object
+		sprite planet/gas8
+		distance 3376
+		period 856.099
+		object
+			sprite planet/desert4
+			distance 325
+			period 277.164
+		object
+			sprite planet/rock0
+			distance 423
+			period 328.86
+	object ?????
+		sprite planet/wormhole-red
+		distance 6660
+		period 2372.093
+	object
+		sprite planet/gas17-b
+		distance 7699
+		period 2948.301
+		object
+			sprite planet/ice7-b
+			distance 270
+			period 116.108
 

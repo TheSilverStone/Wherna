@@ -27,7 +27,7 @@ government Rathalan
 
 government Dorsa
 	swizzle 23
-	color 65 120 40
+	color 0.255 0.471 0.157
 	"player reputation" -1000
 	"crew attack" .43
 	"crew defense" .67
