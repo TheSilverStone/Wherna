@@ -7,3 +7,7 @@ shipyard "Wherna Advanced"
 shipyard "Wherna Basic"
 	"Lasini"
 	"Hurnisia"
+
+shipyard "Dorsa Basic"
+
+shipyard "Dorsa Advanced"

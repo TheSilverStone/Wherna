@@ -34,7 +34,10 @@ ship "Vornilina"
 	engine 0 0
 	gun 0 0 "Inruni Laser"
 	gun 0 0 "Inruni Laser"
-	gun 0 0 "Inruni Laser"
+	turret 0 0 "Inruni Laser"
+	turret 0 0 "Inruni Laser"
+	turret 0 0 "Inruni Laser"
+	turret 0 0 "Inruni Laser"
 	leak "leak" 50 50
 	leak "flame" 50 80
 	leak "big leak" 90 30
@@ -82,6 +85,12 @@ ship "Retardi"
 	gun 0 0 "Inruni Laser"
 	gun 0 0 "Inruni Laser"
 	gun 0 0 "Inruni Laser"
+	gun 0 0 "Inruni Laser"
+	turret 0 0 "Inruni "
+	turret 0 0 "Inruni "
+	turret 0 0 "Inruni "
+	turret 0 0 "Inruni "
+	turret 0 0 "Inruni "
 	bay Fighter 0 0
 	bay Fighter 0 0
 	bay Fighter 0 0
@@ -140,52 +149,6 @@ ship "Lasini"
 	explode "medium explosion" 20
 	"final explode" "final explosion tiny"
 	description "This tiny ship is almost a fighter, and is easily disabled and even killed. However, a swarm of them can quite easily defeat almost and ship set on them, excluding a strange beast which has been sighted in Hulaina."
-#
-#ship "Template"
-#	sprite "ship/"
-#	thumbnail "thumbnail/"
-#	attributes
-#		category ""
-#		"cost"
-#		"shields"
-#		"hull"
-#		"required crew"
-#		"bunks"
-#		"heat dissipation"
-#		"fuel capacity"
-#		"energy capacity"
-#		"cargo space"
-#		"outfit space"
-#		"weapon capacity"
-#		"hull repair"
-#		"engine capacity"
-#		weapon
-#			"blast radius"
-#			"shield damage"
-#			"hull damage"
-#			"hit force"
-#	outfits
-#		"Inruni "
-#
-#		"Ru Shield Regenerator"
-#		"Ru Energy Regenerator"
-#
-#		"Ru Steering" 2
-#		"Ru Thruster"
-#		"Ru Reverse Thruster"
-#		"Hyperdrive"
-#		
-#	engine 0 0
-#	gun 0 0 "Inruni "
-#	leak "leak" 50 50
-#	leak "flame" 50 80
-#	leak "big leak" 90 30
-#	explode "tiny explosion" 10
-#	explode "small explosion" 25
-#	explode "medium explosion" 25
-#	explode "large explosion" 10
-#	"final explode" "final explosion large"
-#	description "This is a template ship to copy and should not be added to the main game or any #shipyard."
 
 ship "Hurnisia"
 	sprite "ship/finch"
@@ -233,3 +196,57 @@ ship "Hurnisia"
 	explode "large explosion" 10
 	"final explode" "final explosion large"
 	description "The Hurnisia is one of the few fighters in Wherna space. It could also be called the worst by many of the fighter pilots who pilot it."
+
+ship "Tubisin"
+	sprite "ship/hawk"
+	thumbnail "thumbnail/hawk"
+	attributes
+		category "Interceptor"
+		"cost" 3678452
+		"shields" 1005
+		"hull" 925
+		"required crew" 3
+		"bunks" 6
+		"heat dissipation" 4
+		"fuel capacity" 500
+		"energy capacity" 1200
+		"cargo space" 26
+		"outfit space" 140
+		"weapon capacity" 65
+		"hull repair" 0.4
+		"engine capacity" 45
+		weapon
+			"blast radius" 300
+			"shield damage" 25
+			"hull damage" 35
+			"hit force" 24
+	outfits
+		"Inruni "
+
+		"Ru Shield Regenerator"
+		"Ru Energy Regenerator"
+
+		"Ru Steering" 2
+		"Ru Thruster"
+		"Ru Reverse Thruster"
+		"Hyperdrive"
+		
+	engine 0 0
+	gun 0 0 "Inruni "
+	gun 0 0 "Inruni "
+	gun 0 0 "Inruni "
+	turret 0 0 "Inruni "
+	turret 0 0 "Inruni "
+	turret 0 0 "Inruni "
+	turret 0 0 "Inruni "
+	turret 0 0 "Inruni "
+	turret 0 0 "Inruni "
+	leak "leak" 50 50
+	leak "flame" 50 80
+	leak "big leak" 90 30
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 25
+	explode "large explosion" 10
+	"final explode" "final explosion large"
+	description "The Tubisin is not a large ship, and its only disadvantage is the ability to be swarmed by Wherna Hurnisias, as it only has a few guns and turrets."
