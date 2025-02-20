@@ -28,7 +28,7 @@ outfit "Inruni Turret"
 	thumbnail "outfit/heavy laser turret"
 	"outfit space" -135
 	"weapon capacity" -90
-	"gun ports" -1
+	"turret mounts" -1
 	weapon
 		sprite "projectile/inruni/laser"
 		sound "inruni laser"
@@ -51,7 +51,7 @@ outfit "Inruni Blaster Turret"
 	thumbnail "outfit/blaster turret"
 	"outfit space" -13
 	"weapon capacity" 6
-	"gun ports" -1
+	"turret mounts" -1
 	weapon
 		sprite "projectile/i blaster"
 		sound "energy blaster"

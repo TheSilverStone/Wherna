@@ -9,6 +9,7 @@ government Wherna
 		capture 10
 		destroy 20
 	fine 0
+	"friendly hail" "Wherna Hails"
 
 government Rathalan
 	swizzle 23

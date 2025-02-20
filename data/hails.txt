@@ -28,3 +28,83 @@ phrase "Wherna Ships"
 		"Irunsa"
 		"Minisasa"
 		"Binasa"
+
+phrase "Wherna Civilian"
+	word
+		"Hello, "
+		"Greetings, "
+		"Excuse me, "
+	word
+		"do you know about the "
+		"did you hear about the "
+		"heard you of the "
+	word
+		"company Jusin"
+		"aliens called Rathalan"
+		"corporation Enesa"
+	word
+		"? "
+	word
+		"They "
+	word
+		"work wonders "
+		"do things impossible "
+		"add technology "
+	word
+		"to our shipyards."
+		"unto us."
+		"for us."
+
+phrase "Wherna Hails"
+	phrase
+		"Wherna Civilian"
+		"Angry Civilian"
+		"Happy Shipowner"
+
+phrase "Angry Civilian"#this isn't directed at you
+	word
+		"I "
+		"Myself, I "
+	word
+		"don't like "
+		"dislike "
+		"hate "
+	word
+		"those traitors "
+	word
+		"the rathalan. "
+		"that company called Jusin. "
+		"the corporation Enesa. "
+	word
+		"They "
+	word
+		"corrupt "
+		"destroy "
+		"knock down "
+	word
+		"our shipyards."
+		"many establishments."
+		"my business."
+
+phrase "Happy Shipowner"
+	word
+		"I "
+	word
+		"love "
+		"like "
+		"enjoy "
+	word
+		"this ship "
+		"my ship "
+		"the ship I'm flying "
+	word
+		"because it has "
+		"for it has "
+	word
+		"fast engines. "
+		"great hull. "
+		"fancy weapons. "
+		"a greater cargo space. "
+		"fewer crew. "
+		"lots of weapon capacity. "
+		"enough bunks. "
