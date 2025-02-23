@@ -1,3 +1,11 @@
+phrase "Wherna Hails"
+	phrase
+		"Wherna Civilian"
+		"Angry Civilian"
+		"Happy Shipowner"
+		"Happy Shipowner 2"
+		"Questioning Wherna"
+
 phrase "Wherna Ships"
 	word
 		"Siritari "
@@ -40,8 +48,8 @@ phrase "Wherna Civilian"
 		"heard you of the "
 	word
 		"company Jusin"
-		"aliens called Rathalan"
 		"corporation Enesa"
+		"business Kesana"
 	word
 		"? "
 	word
@@ -54,12 +62,6 @@ phrase "Wherna Civilian"
 		"to our shipyards."
 		"unto us."
 		"for us."
-
-phrase "Wherna Hails"
-	phrase
-		"Wherna Civilian"
-		"Angry Civilian"
-		"Happy Shipowner"
 
 phrase "Angry Civilian"#this isn't directed at you
 	word
@@ -75,6 +77,7 @@ phrase "Angry Civilian"#this isn't directed at you
 		"the rathalan. "
 		"that company called Jusin. "
 		"the corporation Enesa. "
+		"the business Kesana. "
 	word
 		"They "
 	word
@@ -108,3 +111,85 @@ phrase "Happy Shipowner"
 		"fewer crew. "
 		"lots of weapon capacity. "
 		"enough bunks. "
+
+phrase "Happy Shipowner 2"
+	word
+		"This "
+		"My "
+		"My friend's "
+	word
+		"ship "
+		"pastime "
+		"boat "
+	word
+		"is very "
+		"is not very "
+		"isn't "
+	word
+		"fun "
+		"enjoyable "
+		"not fun "
+	word
+		"for it has "
+		"it doesn't have "
+		"I like it like this, "
+	word
+		"fast engines. "
+		"great hull. "
+		"fancy weapons. "
+		"a greater cargo space. "
+		"fewer crew. "
+		"lots of weapon capacity. "
+		"enough bunks. "
+
+phrase "Questioning Wherna"
+	word
+		"Did you "
+		"Have you  "
+		"Will you "
+	word
+		"go to "
+		"visit "
+		"enjoy "
+		"find "
+	word
+		"the amusement park "
+		"the flying course "
+		"the racetrack "
+		"the races "
+		"the entertainments "
+	word
+		"on "
+		"at "
+	phrase
+		"Wherna Planets"
+	word
+		"?"
+
+phrase "Wherna Planets"
+	word
+		"Tsaradian"
+		"Tsadonless"
+		"Varnoka"
+		"Wernkoa"
+		"Jurnuri"
+		"Hilana"
+		"Torna"
+		"Fornata"
+		"Disna"
+		"Cardan"
+		"Durna"
+
+phrase "Wherna Inhabited Systems"
+	word
+		"Werantas"
+		"Polasdon"
+		"Alis"
+		"Ranorackaos"
+		"Jurnuli"
+		"Ilkan"
+		"Tilbithia"
+		"Unili"
+		"Tarnaya"
+		"Utasa"
+		"Tekanas"

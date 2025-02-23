@@ -250,3 +250,57 @@ ship "Tubisin"
 	explode "large explosion" 10
 	"final explode" "final explosion large"
 	description "The Tubisin is not a large ship, and its only disadvantage is the ability to be swarmed by Wherna Hurnisias, as it only has a few guns and turrets."
+
+ship "Tubisin"
+	sprite "ship/falcon"
+	thumbnail "thumbnail/falcon"
+	attributes
+		category "Heavy Warship"
+		"cost" 7693000
+		"shields" 14582
+		"hull" 1230
+		"required crew" 28
+		"bunks" 50
+		"heat dissipation" 4
+		"fuel capacity" 700
+		"energy capacity" 10000
+		"cargo space" 70
+		"outfit space" 140
+		"weapon capacity" 450
+		"hull repair" 2
+		"engine capacity" 45
+		weapon
+			"blast radius" 300
+			"shield damage" 25
+			"hull damage" 35
+			"hit force" 24
+	outfits
+		"Inruni "
+
+		"Ru Shield Regenerator"
+		"Ru Energy Regenerator"
+
+		"Ru Steering" 2
+		"Ru Thruster"
+		"Ru Reverse Thruster"
+		"Hyperdrive"
+		
+	engine 0 0
+	gun 0 0 "Inruni "
+	gun 0 0 "Inruni "
+	gun 0 0 "Inruni "
+	turret 0 0 "Inruni "
+	turret 0 0 "Inruni "
+	turret 0 0 "Inruni "
+	turret 0 0 "Inruni "
+	turret 0 0 "Inruni "
+	turret 0 0 "Inruni "
+	leak "leak" 50 50
+	leak "flame" 50 80
+	leak "big leak" 90 30
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 25
+	explode "large explosion" 10
+	"final explode" "final explosion large"
+	description "The Tubisin is not a large ship, and its only disadvantage is the ability to be swarmed by Wherna Hurnisias, as it only has a few guns and turrets."
