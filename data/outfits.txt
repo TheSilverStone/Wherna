@@ -5,6 +5,18 @@ outfit "Wherna Map"
 	"map" 5
 	description "This data chip contains complete information on the five star systems closest to this one: planets, ports, governments, trade prices, available services, etc. You can get all the same information just by exploring those systems yourself, but having a map can save you from making wrong turns if you are trying to travel through new territory to reach a certain system quickly."
 
+outfit "Wherna License"
+	category "Licenses"
+	thumbnail "outfit/wherna license"
+	"unplunderable" 1
+	description "This license was gifted to you from the Wherna. While you wear it, it remains invisible and only appears under a special light the Wherna have."
+
+outfit "Wherna Military License"
+	category "Licenses"
+	thumbnail "outfit/wherna mil license"
+	"unplunderable" 1
+	description "While the Wherna license gives you excess to the normal ships and outfits of the Wherna, the Wherna military license gives you excess to all ships and outfits. It is only slightly different from the Wherna license."
+
 outfit "Ruckaos Steering"
 	category Engines
 	plural "Ruckaos Steering Units"
