@@ -1,0 +1,12 @@
+	on offer
+		conversation
+			`As you land, you notice that strange ships are landing and taking off. They aren't like any ships you've ever seen before. You follow one to the spaceport, and then, hesitantly, land.`
+			choice
+				`	(Take of again, they may be hostile.)`
+					goto suspicious
+				`	(Wait a few minutes, and then open the airlock and walk out.)`
+					goto hesitant
+				`	(Walk out, they haven't attacked me yet.)`
+					goto bold
+			label suspicious
+			`	You take off again, and as you do so, a strange hail reaches your ship. "Why do you fear the Wherna, have they done you any wrong?" The voice is distant, and the noise grates.`

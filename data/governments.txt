@@ -10,6 +10,37 @@ government Wherna
 		destroy 20
 	fine 0
 	"friendly hail" "Wherna Hails"
+	"hostile hail" "Angry Wherna Hails"
+
+government Wherna (Civilian)
+	color 0.053 0.375 0.365
+	"display name" "Wherna"
+	"player reputation" 1000
+	"crew attack" 3
+	"crew defense" 1
+	"penalty for"
+		assist -5
+		board 0.5
+		capture 10
+		destroy 20
+	fine 0
+	"friendly hail" "Wherna Hails"
+	"hostile hail" "Angry Wherna Hails"
+
+government Wherna (Military)
+	color 0.263 0.585 0.575
+	"display name" "Wherna"
+	"player reputation" 1000
+	"crew attack" 3
+	"crew defense" 1
+	"penalty for"
+		assist -5
+		board 0.5
+		capture 10
+		destroy 20
+	fine 0
+	"friendly hail" "Wherna Hails"
+	"hostile hail" "Angry Wherna Hails"
 
 government Rathalan
 	swizzle 23

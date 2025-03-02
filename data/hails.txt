@@ -5,6 +5,11 @@ phrase "Wherna Hails"
 		"Happy Shipowner"
 		"Happy Shipowner 2"
 		"Questioning Wherna"
+		"Angry Wherna"
+
+phrase "Angry Wherna Hails"
+	phrase
+		"Angry Wherna"
 
 phrase "Wherna Ships"
 	word
@@ -193,3 +198,34 @@ phrase "Wherna Inhabited Systems"
 		"Tarnaya"
 		"Utasa"
 		"Tekanas"
+
+phrase "Angry Wherna"
+	word
+		"I will "
+		"Myself, I will "
+	word
+		"destroy your "
+		"annihilate your "
+		"blow up your "
+	word
+		"ship"
+		"boat"
+		"flying machine"
+		"spaceship"
+	word
+		"!"
+	word
+		" Therefore "
+		" Thus "
+		" So doing "
+		" Having done so "
+	word
+		"I will "
+		"I must "
+	word
+		"avenge "
+		"help "
+		"remember "
+	word
+		"my friend."
+		"my ship's hull."

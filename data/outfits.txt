@@ -67,6 +67,15 @@ outfit "Runuisa cooling"
 	"outfit space" -13
 	"cooling" 50
 
+outfit "Dorsa anti-cooling"
+	category Systems
+	plural "Dorsa anti-cooling units"
+	cost 1604500
+	thumbnail "outfit/cooling ducts"
+	"outfit space" -12
+	"heat generation" 50
+	description "The Dorsa use this outfit to re-heat their ships, as their ships constantly are cooling down because of the large heat flow guns. The Dorsa's weapons use heat to fire."
+
 outfit "Ruckaos cooling"
 	category Systems
 	plural "Ruckaos cooling systems"

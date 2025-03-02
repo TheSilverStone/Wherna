@@ -9,5 +9,6 @@ shipyard "Wherna Basic"
 	"Hurnisia"
 
 shipyard "Dorsa Basic"
+	"Tubisin"
 
 shipyard "Dorsa Advanced"
