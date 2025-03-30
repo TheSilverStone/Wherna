@@ -1,3 +1,16 @@
+# Copyright (c) 2025 by TheSilverStone
+#
+# Wherna is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Wherna is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
 planet Tsaradian
 	landscape land/badlands1
 	description "This planet was considered to be the first planet the Wherna lived on. However, nobody really knows, and as most Wherna live on this planet, it is only considered such because the majority of Wherna here like to prove that their planet is best."
@@ -51,10 +64,18 @@ planet Tsadonless
 	landscape land/forest3
 	description "This is a popular tourist destination, but only because it has many warm springs, heated by deposits of molten gold, and the Wherna have found a way to extract it."
 	description "The majority of Wherna on this planet live in solitude, among the strange flimsy plants, many of which have strange flowers of various shapes and sizes."
-	spaceport "The spaceport is the fanciest one in Wherna space, since it is made of solid gold, though very dusty. Many captains are trading other metals for gold, where they will ship them to other planets."
+	spaceport "The spaceport is the fanciest one in Wherna space, since it is made of solid gold, although it is very dusty. Many captains are trading other metals for gold, where they will ship them to other planets."
 	spaceport "The spaceport is dark and dirty, and the landing pads are few and cracked. Apparently, the Wherna government has given up on this planet, and the although buildings around most spaceports are terrible, buildings such as the ones here are rarely seen anywhere."
 	outfitter "Wherna Advanced"
 	shipyard "Wherna Advanced"
+
+planet Horndom
+	landscape land/forest3
+	attributes "requires: heatlining"
+	description "Broiling hot, this star is only suitable for ships to drift in, since many have attempted to land."
+	description "Many strange light creatures are darting around in the extreme heat, which, even through the protective lining of your ship stops it, are trying to knaw on it. You are lucky that Sesilani only sent you here once."
+	spaceport "The extreme heat and light on this planet hits you emergency ranscoop with such force that your fuel gauge jumps to the top, and you shield your ranscoop to avoid blowing your ship up."
+
 
 planet Varnoka
 	landscape land/snow0
@@ -144,3 +165,5 @@ planet Kacka
 	spaceport "Dirty and always packed, this might have been painted once-but that was long enough ago that nobody remembers what color it was, or where the paint is. Its ceiling is low, and you almost bump your head after getting out of the hanger. Evidently it was build for the smaller Dorsa instead of humans."
 	government Dorsa
 	bribe 0
+	outfitter "Dorsa Advanced"
+	shipyard "Dorsa Advanced"

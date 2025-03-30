@@ -1,3 +1,16 @@
+# Copyright (c) 2025 by TheSilverStone
+#
+# Wherna is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Wherna is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
 system Gerenus
 	add link Cena
 
@@ -30,12 +43,13 @@ system Werantas
 	trade Medical 573
 	trade Metal 564
 	trade Plastic 514
-	fleet "Small Wherna" 300
+#	fleet "Wherna" 300
+	fleet "Destroyer" 100
 	object
 		sprite star/o0
 		distance 34
 		period 10.126
-	object
+	object Horndom
 		sprite star/o1
 		distance 15
 		period 69.563
@@ -89,7 +103,7 @@ system Polasdon
 	trade Medical 573
 	trade Metal 564
 	trade Plastic 514
-	fleet "Small Wherna" 500
+	fleet "Wherna" 500
 	object
 		sprite star/f3
 		distance 111.104
@@ -166,7 +180,7 @@ system Alis
 	trade Medical 573
 	trade Metal 564
 	trade Plastic 514
-	fleet "Small Wherna" 500
+	fleet "Wherna" 500
 	object
 		sprite star/m-giant
 		period 10
@@ -227,7 +241,7 @@ system Hulaina
 	asteroids "medium rock" 1 2.318
 	asteroids "large rock" 1 2.243
 	asteroids "large metal" 1 2.369
-	fleet "Small Wherna" 500
+	fleet "Wherna" 500
 	object
 		sprite star/k5-old
 		distance 164
@@ -410,7 +424,7 @@ system Ranorackaos
 	trade Medical 573
 	trade Metal 564
 	trade Plastic 514
-	fleet "Small Wherna" 500
+	fleet "Wherna" 500
 	object
 		sprite star/g5-old
 		period 10
@@ -475,7 +489,7 @@ system Orinila
 	asteroids "medium metal" 3 2.611
 	asteroids "large metal" 2 2.266
 	minables aluminum 1 4.906
-	fleet "Small Wherna" 500
+	fleet "Wherna" 500
 	object
 		sprite star/a-supergiant
 		distance 541.5
@@ -562,7 +576,7 @@ system Ilkakanos
 	asteroids "large metal" 20 3.494
 	minables copper 2 4.551
 	minables lead 2 6.319
-	fleet "Small Wherna" 500
+	fleet "Wherna" 500
 	object
 		sprite star/b3
 		period 10
@@ -621,7 +635,7 @@ system Jurnuli
 	trade Medical 573
 	trade Metal 564
 	trade Plastic 514
-	fleet "Small Wherna" 500
+	fleet "Wherna" 500
 	object
 		sprite star/k-supergiant
 		period 10
@@ -683,7 +697,7 @@ system Ilkan
 	trade Medical 573
 	trade Metal 564
 	trade Plastic 514
-	fleet "Small Wherna" 500
+	fleet "Wherna" 500
 	object
 		sprite star/f-supergiant
 		distance 310.75
@@ -761,7 +775,7 @@ system Tilbithia
 	trade Medical 573
 	trade Metal 564
 	trade Plastic 514
-	fleet "Small Wherna" 500
+	fleet "Wherna" 500
 	object
 		sprite star/k-supergiant
 		distance 400
@@ -805,7 +819,7 @@ system Unili
 	link Orinila
 	link Utasa
 	asteroids "large metal" 1 3.265
-	fleet "Small Wherna" 500
+	fleet "Wherna" 500
 	object
 		sprite star/b-dwarf
 		distance 113.76
@@ -862,7 +876,7 @@ system Tarnaya
 	minables uranium 2 2.47
 	minables copper 3 3.255
 	minables iron 5 2.386
-	fleet "Small Wherna" 500
+	fleet "Wherna" 500
 	object
 		sprite star/o-supergiant
 		period 10
@@ -899,7 +913,7 @@ system Utasa
 	asteroids "medium metal" 4 5.216
 	asteroids "large metal" 4 4.385
 	minables lead 2 7.629
-	fleet "Small Wherna" 500
+	fleet "Wherna" 500
 	object
 		sprite star/g-supergiant
 		period 10
